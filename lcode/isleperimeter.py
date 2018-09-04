@@ -11,23 +11,38 @@ si se  ingresa un  -1 se devuelve el ultimo elemoentode la lsita y asui sucesisa
 
 class Solution:
 
-    def colinda(self, matriz, x, y):
+    def colinda(self, matriz, y, x):
+        vertical= len(matriz)
+        horizontal= len(matriz[0])
         #abajo
         c=0
 
-            if x>=0 and y>=0 and matriz[x][y+1]==1:
-                c=c+1
+        if x>=0 and y>=0 and x+1<horizontal and y < vertical and matriz[y][x+1]==1:
+            #print("dere")
+            c=c+1
+    
+    
+    
+        
+        if x>=0 and y>=0 and x<horizontal and y+1 < vertical and  matriz[y+1][x]==1:
+            #print("abajo")
 
-            if x>=0 and y>=0 and matriz[x][y-1]==1:
-                c=c+1
+            c=c+1
 
-            if x>=0 and y>=0 and matriz[x+1][y]==1:
-                c=c+1
 
-            if x>=0 and y>=0 and matriz[x-1][y]==1:
-                c=c+1
-        except Exception as e:
-            pass
+
+        if x-1>=0 and y>=0 and x<horizontal and y < vertical and matriz[y][x-1]==1:
+            #print("izq")
+
+            c=c+1
+
+        
+
+        if x>=0 and y-1>=0 and x<horizontal and y < vertical and matriz[y-1][x]==1:
+            #print("arr")
+
+            c=c+1
+
 
         return c
 
@@ -38,20 +53,23 @@ class Solution:
         s=Solution()
         x=0
         y=0
-        for x in range(0, 1):
-            for y in range(0,1):
-                #print(grid[x][y])
-                print (s.colinda(grid, x, y))
+        suma=0
+        for y in range(0, vertical):
+            for x in range(0,horizontal):
+               
+                if grid[y][x]==1:
+                    #print(s.colinda(grid, y, x))
+                    suma=suma+(4-s.colinda(grid, y, x))
+                    
 
 
+        return suma
+        
 
 
 if __name__ == "__main__":
 
-    mat = [[0,1,0,0],
-            [1,1,1,0],
-            [0,1,0,0],
-            [1,1,0,0]]
+    mat = [[1,1,1]]
 
     s=Solution()
 
