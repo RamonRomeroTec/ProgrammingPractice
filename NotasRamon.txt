@@ -3,6 +3,12 @@ Notas Ramón
 --> Entiende, diseña, codifica, prueba
 --> Divide y conquista siempre para simplificar
 
+
+
+--> Estructuras de datos en python3
+	https://docs.python.org/3/tutorial/datastructures.html
+	
+	
 --> Permutaciones y combinaciones en python
 	https://docs.python.org/3/library/itertools.html
 
