@@ -1,0 +1,17 @@
+Notas Ramón
+
+--> Entiende, diseña, codifica, prueba
+--> Divide y conquista siempre para simplificar
+
+--> Permutaciones y combinaciones en python
+	https://docs.python.org/3/library/itertools.html
+
+	product('ABCD', repeat=2)	 	AA AB AC AD BA BB BC BD CA CB CC CD DA DB DC DD
+	permutations('ABCD', 2)	 		AB AC AD BA BC BD CA CB CD DA DB DC
+	combinations('ABCD', 2)	 						AB AC AD BC BD CD
+	combinations_with_replacement('ABCD', 2)	 	AA AB AC AD BB BC BD CC CD DD
+
+
+--> ord() es una funcion que nos recupera el codigo ascii de la letra
+--> Operador de suma lógica no existe, es necesario ejecutar and
+--> Index out of bounts no aplica cuando se esta desarrollando sobre una estructura como listas, ya que si se  ingresa un  -1 se devuelve el ultimo elemoentode la lsita y asui sucesisavente
