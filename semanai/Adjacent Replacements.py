@@ -55,6 +55,7 @@ if __name__ == '__main__':
     a=stdin.readline().split(' ')
     s1=list(map(int, a))
     numbers=[]
+
     '''
     c=[]
     for i in range(0,1000):
