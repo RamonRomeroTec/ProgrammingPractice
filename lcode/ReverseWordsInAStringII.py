@@ -1,4 +1,7 @@
 '''
+ok
+
+
 class Solution:
     """
     @param str: a string

@@ -1,3 +1,6 @@
+'''
+ok
+'''
 class Solution:
 
     def index(self,strs):

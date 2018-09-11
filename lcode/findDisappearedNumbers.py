@@ -1,3 +1,6 @@
+'''
+ok
+'''
 import sort
 class Solution:
     """
