@@ -1,3 +1,7 @@
+'''
+ok
+'''
+
 class Solution:
     """
     @param s: a string
@@ -27,16 +31,16 @@ class Solution:
         l1.sort()
         l2.sort()
         try:
-            
+
             for i in range(0,len(t)):
                 if l1[i]!=l2[i]:
                     return l2[i]
         except Exception as e:
             return l2[-1]
 
-            
 
-            
+
+
 
 
 if __name__ == "__main__":
@@ -47,6 +51,3 @@ if __name__ == "__main__":
     s=Solution()
 
     print(str(s.findTheDifference(t,q)))
-
-
-

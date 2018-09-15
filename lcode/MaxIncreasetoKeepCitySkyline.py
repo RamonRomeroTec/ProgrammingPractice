@@ -1,3 +1,6 @@
+'''
+ok
+'''
 class Solution:
     """
     @param grid: a 2D array

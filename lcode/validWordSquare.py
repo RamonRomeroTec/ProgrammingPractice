@@ -1,8 +1,9 @@
 class Solution:
     """
+    ok
     @param words: a list of string
     @return: a boolean
-    
+
     '''
     [
   "abcd",

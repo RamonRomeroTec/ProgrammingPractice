@@ -1,5 +1,5 @@
 '''
-
+ok
 
 Divide y conquista, donde primero es necesarioo generar una funcion donde se determine si
 si la diagonal es verdera y ejecutar para eje base x/  y

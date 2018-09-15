@@ -1,5 +1,6 @@
 // @AleLopez1312
 // @ramonromerotec
+//ok
 
 class Solution {
 public:
@@ -14,7 +15,7 @@ public:
         }else if(n==1){
                         return true;
 
-            
+
         }else {
             return false;
         }

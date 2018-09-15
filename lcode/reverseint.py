@@ -1,3 +1,5 @@
+
+#ok
 class Solution():
 
     def reverse(self,x):
@@ -11,11 +13,6 @@ class Solution():
 
         f=int(s)
         f=f*pos
-
-
-
-
-
 
         if (f<-2147483648 or f>2147483648 ):
         	 return 0
