@@ -1,4 +1,5 @@
 """
+OK
 Definition of TreeNode:
 class TreeNode:
     def __init__(self, val):
@@ -32,5 +33,3 @@ class Solution:
             return 1+ s.countNodes(root.left)
         '''
         # write your code here
-
-    
