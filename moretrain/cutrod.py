@@ -1,6 +1,8 @@
 def cutrod(prices, longitud):
+	q=0
 	if longitud==0:
 		return 0
+
 	for i in range(0,longitud):
 		print(q)
 		q=max(q, prices[i]+ cutrod(prices, longitud-i))
