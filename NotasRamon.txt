@@ -24,7 +24,14 @@ Notas Ramón
 --> Entiende, diseña, codifica, prueba
 --> Divide y conquista siempre para simplificar
 
+--> Binario
+'''
+>>> format(14, '#b'), format(14, 'b')
+('0b1110', '1110')
+>>> f'{14:#b}', f'{14:b}'
+('0b1110', '1110')
 
+'''
 
 --> Estructuras de datos en python3
 	https://docs.python.org/3/tutorial/datastructures.html
@@ -32,6 +39,9 @@ Notas Ramón
 
 --> Permutaciones y combinaciones en python
 	https://docs.python.org/3/library/itertools.html
+
+  from itertools import combinations
+  list(combinations(arr, r))
 
 	product('ABCD', repeat=2)	 	AA AB AC AD BA BB BC BD CA CB CC CD DA DB DC DD
 	permutations('ABCD', 2)	 		AB AC AD BA BC BD CA CB CD DA DB DC
