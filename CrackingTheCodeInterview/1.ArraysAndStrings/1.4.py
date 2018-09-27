@@ -6,7 +6,10 @@ permutation of a palindrome. A palindrome is a word or phrase that is the same
  The palindrome does not need to be limited to just dictionary words.
 EXAMPLE
 '''
+
 from itertools import permutations
+
+
 def palin(s):
     s=s.replace(" ", "")
     if s == s[::-1]:

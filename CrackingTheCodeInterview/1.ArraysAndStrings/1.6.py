@@ -7,6 +7,11 @@ Hints: #51, #100
 
 
 '''
+
+def rotateright(arr):
+    for i in range(reverse(len(arr))):
+        for j in range(reverse(len(arr)))
+            print()
 if __name__ == '__main__':
     m=[[12, 13 ,44],
     [15, 13 ,44],
