@@ -25,6 +25,10 @@ def rotateright(arr):
         m.append(l)
     return m
 
+
+
+
+
 if __name__ == '__main__':
     m=[[1, 2 ,3],
     [4, 5 ,6],

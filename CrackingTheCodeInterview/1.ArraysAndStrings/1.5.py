@@ -10,20 +10,10 @@ pales.pale -> true
 pale. bale -> true
 pale. bake -> false
 
-
-def oneWay(s,l):
-    if len(l)==len(s):
-        if s==l:
-            return True
-    else len(l)==len(s)+1:
-        for i :
-            pass
-
-    elif len(l)==len(s)-1:
-
-    else:
-        return False
 '''
+
+
+
 
 def oneWay(s,l):
 
