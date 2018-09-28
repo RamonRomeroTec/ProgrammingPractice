@@ -1,20 +1,17 @@
-'''
+#String Compression: Implement a method to perform basic string compression using the counts
 
-Rotate Matrix: Given an image represented by an NxN matrix,
-where each pixel in the image is 4 bytes, write a method to rotate
-the image by 90 degrees. (an you do this in place?
-Hints: #51, #100
+from collections import Counter
+def fun(s):
+    a=Counter(s)
+    l=[]
+    for k,v in a:
+        l.append(k)
+        l.append(v)
+
+    if len(l)<=len(s):
+        return len(l)
+    else:
+        return len(s)
 
 
-'''
-
-def rotateright(arr):
-    for i in range(reverse(len(arr))):
-        for j in range(reverse(len(arr)))
-            print()
-if __name__ == '__main__':
-    m=[[12, 13 ,44],
-    [15, 13 ,44],
-    [16, 13 ,44]]
-
-    print (list(zip(*m[::-1])))
+    

@@ -26,25 +26,43 @@ def oneWay(s,l):
 '''
 
 def oneWay(s,l):
+
+    if ""==s and l=="":
+        return False
+
+    if s==l:
+        return False
     if len(l)==len(s) or abs(len(l)-len(s))==1:
 
         k=min(len(s), len(l))
         i=0
+        j=0
         c=0
-        for i in range(0,k):
-            if  s[i] != l[i]:
-                #print(s[i] ,l[i])
-                c=c+1
-            if c>1:
-                return False
+        while(1):
+            if  s[i] != l[j]:
+                if s[i+1]==l[j]:
+                    i=i+1
 
-        return True
+                elif s[i]==l[j+1]:
+                    j=j+1
+
+                c=c+1
+                if c>1:
+                    return False
+
+
+            j=j+1
+            i=i+1
+            if i==len(s)-1 or j==len(l)-1:
+                return True
+
+
     else:
         return False
 
-
 if __name__ == '__main__':
-    print(oneWay("pale", "pae"))
-    print(oneWay("pales", "pale"))
-    print(oneWay("pale", "bale"))
-    print(oneWay("pale", "bake"))
+    #print(oneWay("pale", "pae"))
+    #print(oneWay("pales", "pale"))
+    #print(oneWay("pale", "bale"))
+    #print(oneWay("pale", "bake"))
+    print(oneWay("pale", "ale"))
