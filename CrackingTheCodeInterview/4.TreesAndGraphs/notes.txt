@@ -1,0 +1,20 @@
+Un arbol de busqueda binario, no es lo mismo que una rbol binario,
+un arbol de busqueda esta ordenado
+
+
+completo: izquerida a derecha
+full: 2 hijos por cada nodo
+perfecto  full+completo
+
+
+
+#VER FOTOGRAFRAS DE RECORRIDO DE ARBOL
+
+Un heap en un arbol ordenado donde el padre siempre es mayor o menor que los hijos
+de acuerdo del caso . Ejemplo:
+
+
+
+      1
+  10       20
+88   86   45   34
