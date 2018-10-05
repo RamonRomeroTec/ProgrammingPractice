@@ -6,13 +6,36 @@ class Node(object):
         self.val=val
         self.nodes=lnodes
 
+    def __str__(self):
+        return str(self.val)
+
 
 class Graph(object):
     def __init__(self, arg):
         self.nodes=arg
 
 
-def auxsearch(node, visited):
+
+from collections import deque
+
+def auxb(node, marked):
+    queue = deque([])
+    marked.append(node)
+    queue.append(node)
+    while len(queue)>0:
+        r=queue.popleft()
+        print(r)
+        for i in r.nodes:
+            if i not in marked:
+                marked.append(i)
+                queue.append(i)
+
+def breadth(node):
+    marked=[]
+    auxb(node, marked)
+
+
+def auxa(node, visited):
     if node == None:
         return 0
     print (node.value)
@@ -21,24 +44,9 @@ def auxsearch(node, visited):
         if i not in visited:
             return auxsearch(i,visited)
 
-def search(node):
+def depth(node):
     v=[]
-    return auxsearch(node,v)
-'''
-def auxsearch(node, visited):
-    if node == None:
-        return 0
-    print (node.value)
-    visited.append(node)
-    for i in node.nodes:
-        if i not in visited:
-            return auxsearch(i,visited)
-
-def search(node):
-    v=[]
-    return auxsearch(node,v)
-
-'''
+    return auxa(node,v)
 
 
 
@@ -63,4 +71,4 @@ if __name__ == '__main__':
 
     g=Graph(ns)
 
-    search(a)
+    breadth(a)
