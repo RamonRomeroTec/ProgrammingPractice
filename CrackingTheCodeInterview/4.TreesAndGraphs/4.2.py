@@ -1,47 +1,33 @@
 
 
-class Node(object):
+class BinTreeNode(object):
     """docstring for [object Object]."""
-    def __init__(self, val=None, lnodes=None):
-        self.val=val
-        self.nodes=lnodes
-
-
-class Graph(object):
-    def __init__(self, arg):
-        self.nodes=arg
-
+    def __init__(self, v,l=None, r=None):
+        self.value = v
+        self.left = l
+        self.right = r
 
 
 def findhalf(l):
     a=len(l)
-    if a%2==0:
-
+    index=int(a/2)
+    if a>0:
+        n=BinTreeNode(l[index])
+        n.left=findhalf(l[:index])
+        n.right=findhalf(l[index+1:])
+        return n
     else:
-
-
-
-
-def addtonode(head,node):
-    if node.value<head.value:
-        #si es menor va a la izquerida
-
-    else:
-
-
-        
-    if head.left!=None or head.right!=None:
-
-
-    else:
-
-
+        return None
 
 
 
 if __name__ == '__main__':
 
     a=[1,2,3,5,6,8,10]
+    print (findhalf(a).value)
+    print (findhalf(a).left)
+    print (findhalf(a).right)
+
 '''
 
 
