@@ -29,7 +29,7 @@ def inOrderTransversal(node):
         print(node.value)
         inOrderTransversal(node.right)
 
-def preOrderTransversal(node):
+def preOrderTransversal(node):    #Profundidad
     if node!=None:
         print(node.value)
         preOrderTransversal(node.left)
@@ -41,7 +41,6 @@ def postOrderTransversal(node):
         preOrderTransversal(node.left)
         preOrderTransversal(node.right)
         print(node.value)
-
 
 
 if __name__ == '__main__':
