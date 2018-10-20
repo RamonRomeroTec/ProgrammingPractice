@@ -29,6 +29,7 @@ def inOrderTransversal(node):
         print(node.value)
         inOrderTransversal(node.right)
 
+
 def preOrderTransversal(node):    #Profundidad
     if node!=None:
         print(node.value)
@@ -41,6 +42,14 @@ def postOrderTransversal(node):
         preOrderTransversal(node.left)
         preOrderTransversal(node.right)
         print(node.value)
+
+def amplitud(node):
+    if node!=None:
+        print (node.value)
+        visited.append(node)
+        for i in node.nodes:
+            if i not in visited:
+                return auxsearch(i,visited)
 
 
 if __name__ == '__main__':
