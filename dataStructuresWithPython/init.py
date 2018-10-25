@@ -13,8 +13,10 @@ b=53//7
 print(a,b)
 
 
-
 #pow
+
+
+
 
 a=53**2
 print(a)
