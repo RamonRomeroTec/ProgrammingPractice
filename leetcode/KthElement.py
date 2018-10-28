@@ -6,23 +6,22 @@
 #         self.right = None
 
 
-#Output array
-def inorder(root):
+def ior(root):
     a=[]
     if root!=None:
-        a = inorder(root.left)
+        a=ior(root.left)
         a.append(root.val)
-        a=a+inorder(root.right)
+        a=a+ior(root.right)
     return a
 
 
 
 class Solution:
-    def inorderTraversal(self, root):
-        return inorder(root)
-
+    def kthSmallest(self, root, k):
+        print(ior(root))
+        return ior(root)[k-1]
         """
         :type root: TreeNode
-        :rtype: List[int]
+        :type k: int
+        :rtype: int
         """
-        
