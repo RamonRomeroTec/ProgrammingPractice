@@ -8,6 +8,9 @@ class Solution:
             if ct[s[i]]==1:
                 return i
         return -1
+    
+    
+    #ok
 
         """
         :type s: str
