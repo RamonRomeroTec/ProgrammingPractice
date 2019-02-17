@@ -1,5 +1,8 @@
-# @ramonromeroqro
-# zip, to reverse to cols
+'''
+
+Note: zip, to reverse to rows to cols
+
+'''
 
 
 class Solution(object):

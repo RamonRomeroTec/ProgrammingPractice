@@ -1,5 +1,8 @@
-# @ramonromeroqro
-# create a set, falidate if element exist
+'''
+
+Note: create a set, falidate if element exist
+
+'''
 
 
 class Solution(object):
