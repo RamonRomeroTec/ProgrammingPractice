@@ -20,22 +20,14 @@ class Solution:
             elif i+1<len(s) and s[i]=='X' and s[i+1]=='L':
                 n=n+d['XL']
                 i=i+2
-
-
+                
             elif i+1<len(s) and s[i]=='X' and s[i+1]=='C':
                 n=n+d['XC']
                 i=i+2
 
-
-
-
             elif i+1<len(s) and s[i]=='C' and s[i+1]=='D':
                 n=n+d['CD']
                 i=i+2
-
-
-
-
 
             elif i+1<len(s) and s[i]=='C' and s[i+1]=='M':
                 n=n+d['CM']
