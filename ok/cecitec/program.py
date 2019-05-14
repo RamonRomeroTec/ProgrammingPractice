@@ -74,8 +74,9 @@ def main(args):
         for col in range(len(splitted)):
             if splitted[col].startswith("="):
                 functions[(row, col)] = splitted[col]
-            elif splitted[col] != "":
+            elif splitted[col].isdigit():
                 splitted[col] = int(splitted[col])
+            
         matrix.append(splitted)
         row = row+1
 
