@@ -1,92 +1,93 @@
-import sys
-import string
-import re
-import pprint
+'''
+Copyright 2019 © Ramon Romero   @RamonRomeroQro
 
-def getvalue(ln, dl, functions, matrix, visited):
-    # for i in range(len(ln)):
-    #     if ln[i].isdigit():
-    #         break
-    # return int(ln[i:])-1, dl[ln[:i]]
-    for i in range(len(ln)):
-        if ln[i].isdigit():
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+'''
+
+import sys
+import re
+
+
+def getvalue(cell_name, functions, matrix, visited):
+    '''Get keys to evaluate'''
+
+    for i in range(len(cell_name)):
+        if cell_name[i].isdigit():
             break
-    k = (int(ln[i:])-1, dl[ln[:i]])
-    if k in visited:
-        return "circular"
-    if k in functions:
-        visited=visited.add(k)
-        return evaluation(k, functions, matrix, dl, visited)
+
+    #key = (int(cell_name[i:])-1, dict_letters[cell_name[:i]])
+    key = (int(cell_name[i:])-1, ord(cell_name[:i])-ord('A'))
+
+    if key in visited:
+        return "#ERROR"
+
+    if key in functions:
+        visited.add(key)
+        return evaluation(key, functions, matrix, visited)  # mutual recursion
+
     else:
-        if matrix[int(ln[i:])-1][dl[ln[:i]]] =="":
+        if matrix[key[0]][key[1]] == "":
             return '#NAN'
         else:
-            return "matrix["+str(int(ln[i:])-1)+"]["+str(dl[ln[:i]])+"]"
+            return "matrix["+str(key[0])+"]["+str(key[1])+"]"
 
 
-def evaluation(k, functions, matrix, dl, visited):
-    v = re.findall(r'[A-Z]+[0-9]+', functions[k][1:])
-    if k not in functions:
-        return str(matrix[k[0]][k[1]])
+def evaluation(key, functions, matrix, visited):
+    ''' Splitting  functions and keys'''
+    cells = re.findall(r'[A-Z]+[0-9]+', functions[key][1:]) # find cells
+    if key not in functions:
+        return str(matrix[key[0]][key[1]])
 
-    for var in v:
-        s1=str(getvalue(var, dl, functions, matrix, visited))
-        functions[k]=functions[k].replace(var, s1)
+    for cell in cells:
+        s1 = str(getvalue(cell, functions, matrix, visited))  # mutual recursion
+        functions[key] = functions[key].replace(cell, s1)
 
-    if "#NAN" in functions[k][1:]:
-        return "#NAN" 
+    if "#NAN" in functions[key][1:]:
+        return "#NAN"
+    elif "#ERROR" in functions[key][1:]:
+        return "#ERROR"
     else:
-        to_x=functions[k][1:]
-        return eval(to_x)
-    # x = re.split(r'\w+', functions[k][1:])
-    # j=0
-    # print(v)
-    # print(x)
-    # for i in range(len(x)):
-    #     if x[i]=="":
-    #         new_row, new_col = getvalue(v[j], dl)
-    #         j=j+1
-    #         if (new_row, new_col) in functions:
-    #             x[i]=evaluation((new_row, new_col), functions, matrix, dl)
-    #         else:
-    #             x[i]="matrix["+str(new_row)+"]["+str(new_col)+"]"
-    # p=("".join(x))
-    # print("-->",p)
-    # return eval(p)
-
-
+        try:
+            return eval(functions[key][1:])  # pythonic evaluation
+        except:
+            return "#ERROR"
 
 
 def main(args):
-    dl = dict(zip(string.ascii_uppercase, range(0,26)))
-    functions= {}
-    fp =  open(args[1], 'r')
-    matrix=[]
-    row=0
+    ''' Main and parsing from tsv'''
+    functions = {}
+    fp = open(args[1], 'r')
+    matrix = []
+    row = 0
     for line in fp:
         splitted = line.strip('\n').split("\t")
         for col in range(len(splitted)):
             if splitted[col].startswith("="):
                 functions[(row, col)] = splitted[col]
-            elif splitted[col]!="":
-                splitted[col]=int(splitted[col])
+            elif splitted[col] != "":
+                splitted[col] = int(splitted[col])
         matrix.append(splitted)
-        row=row+1
-    #print(matrix)
-    #print(functions)
-   
-    for k in functions.keys():
-        matrix[k[0]][k[1]]=evaluation(k, functions, matrix, dl, set())
+        row = row+1
 
+    fp.close()
 
-        
-               
+    for key in functions.keys():
+        matrix[key[0]][key[1]] = evaluation(key, functions, matrix, set())
 
-    print(matrix)
-
-          
-
+    # Print output
+    print("\n".join(["\t".join([str(e) for e in line]) for line in matrix]))
 
 
 if __name__ == "__main__":
+    '''Console Spreadsheet'''
     main(sys.argv)
