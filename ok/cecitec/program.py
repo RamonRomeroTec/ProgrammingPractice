@@ -1,16 +1,7 @@
 '''
 Copyright 2019 © Ramon Romero   @RamonRomeroQro
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
+This program is free software under the GNU General Public License.
 
 '''
 
@@ -44,12 +35,13 @@ def getvalue(cell_name, functions, matrix, visited):
 
 def evaluation(key, functions, matrix, visited):
     ''' Splitting  functions and keys'''
-    cells = re.findall(r'[A-Z]+[0-9]+', functions[key][1:]) # find cells
+    cells = re.findall(r'[A-Z]+[0-9]+', functions[key][1:])  # find cells
     if key not in functions:
         return str(matrix[key[0]][key[1]])
 
     for cell in cells:
-        s1 = str(getvalue(cell, functions, matrix, visited))  # mutual recursion
+        # mutual recursion
+        s1 = str(getvalue(cell, functions, matrix, visited))
         functions[key] = functions[key].replace(cell, s1)
 
     if "#NAN" in functions[key][1:]:
@@ -76,7 +68,7 @@ def main(args):
                 functions[(row, col)] = splitted[col]
             elif splitted[col].isdigit():
                 splitted[col] = int(splitted[col])
-            
+
         matrix.append(splitted)
         row = row+1
 
