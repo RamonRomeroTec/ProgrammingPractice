@@ -9,6 +9,7 @@ Under the GNU General Public License.
 import sys
 import re
 
+
 def str_to_index(str1):
     ''' Given a string index return integer equivalent '''
     result = 0
@@ -16,6 +17,7 @@ def str_to_index(str1):
         result = result * 26
         result = result + (ord(i) - ord('A') + 1)
     return result-1
+
 
 def getvalue(cell_name, functions, matrix, visited):
     '''Get values to evaluate'''
@@ -99,4 +101,3 @@ def main(args):
 if __name__ == "__main__":
     '''Console Spreadsheet'''
     main(sys.argv)
-
