@@ -9,6 +9,13 @@ Under the GNU General Public License.
 import sys
 import re
 
+def str_to_index(str1):
+    ''' Given a string index return integer equivalent '''
+    result = 0
+    for i in str1:
+        result *= 26
+        result += (ord(i) - ord('A') + 1)
+    return result-1
 
 def getvalue(cell_name, functions, matrix, visited):
     '''Get values to evaluate'''
@@ -17,21 +24,25 @@ def getvalue(cell_name, functions, matrix, visited):
         if cell_name[i].isdigit():
             break
 
-    #key = (int(cell_name[i:])-1, dict_letters[cell_name[:i]])
-    key = (int(cell_name[i:])-1, ord(cell_name[:i])-ord('A'))
+    # key = (int(cell_name[i:])-1, ord(cell_name[:i])-ord('A')) chars between A-Z
+    key = (int(cell_name[i:])-1, str_to_index(cell_name[:i]))
 
     if key in visited:
-        return "#ERROR"
+        return "#ERROR"  # circular reference
 
     if key in functions:
         visited.add(key)
-        return evaluation(key, functions, matrix, visited)  # mutual recursion
+        # mutual recursion
+        return evaluation(key, functions, matrix, visited)
 
     else:
-        if matrix[key[0]][key[1]] == "":
-            return '#NAN'
-        else:
-            return "matrix["+str(key[0])+"]["+str(key[1])+"]"
+        try:
+            if matrix[key[0]][key[1]] == "":
+                return '#NAN'  # Empty reference
+            else:
+                return "matrix["+str(key[0])+"]["+str(key[1])+"]"
+        except IndexError:
+            return "#ERROR"  # Unexisting index
 
 
 def evaluation(key, functions, matrix, visited):
@@ -53,7 +64,7 @@ def evaluation(key, functions, matrix, visited):
         try:
             return eval(functions[key][1:])  # pythonic evaluation
         except:
-            return "#ERRORFORM"
+            return "#ERROR"  # syntactical error
 
 
 def main(args):
@@ -68,6 +79,7 @@ def main(args):
             if splitted[col].startswith("="):
                 functions[(row, col)] = splitted[col]
             elif splitted[col].isdigit():
+                # splitted[col] = float(splitted[col]) handle floating point operations
                 splitted[col] = int(splitted[col])
 
         matrix.append(splitted)
@@ -78,6 +90,8 @@ def main(args):
     for key in functions.keys():
         matrix[key[0]][key[1]] = evaluation(key, functions, matrix, set())
 
+    # print(functions)
+
     # Print output
     print("\n".join(["\t".join([str(e) for e in line]) for line in matrix]))
 
@@ -85,3 +99,4 @@ def main(args):
 if __name__ == "__main__":
     '''Console Spreadsheet'''
     main(sys.argv)
+
