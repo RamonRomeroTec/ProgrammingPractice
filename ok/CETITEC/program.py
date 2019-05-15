@@ -1,7 +1,8 @@
 '''
 Copyright 2019 © Ramon Romero   @RamonRomeroQro
 
-This program is free software under the GNU General Public License.
+This program is free software.
+Under the GNU General Public License.
 
 '''
 
@@ -10,7 +11,7 @@ import re
 
 
 def getvalue(cell_name, functions, matrix, visited):
-    '''Get keys to evaluate'''
+    '''Get values to evaluate'''
 
     for i in range(len(cell_name)):
         if cell_name[i].isdigit():
@@ -52,7 +53,7 @@ def evaluation(key, functions, matrix, visited):
         try:
             return eval(functions[key][1:])  # pythonic evaluation
         except:
-            return "#ERROR"
+            return "#ERRORFORM"
 
 
 def main(args):
