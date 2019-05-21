@@ -1,0 +1,15 @@
+SortArrayby Parity
+List comprehension
+
+
+
+
+Contains Duplicate
+
+Pasar directamente a set para comparar finalmente longitudes, resulta ser mas rapido
+que iterar uno por uno, el acceso constante resulta ser la razon de la demora
+
+Valid Anagram
+
+Direcly to Counters and compare them
+
