@@ -55,18 +55,17 @@ def evaluation(key, functions, matrix, visited):
 
     for cell in cells:
         # mutual recursion
+        # break if middle error evaluation
         s1 = str(getvalue(cell, functions, matrix, visited))
+        if s1 == "#NAN":
+            return "#NAN"
+        elif s1== "#ERROR" :
+            return "#ERROR" 
         functions[key] = functions[key].replace(cell, s1)
-
-    if "#NAN" in functions[key][1:]:
-        return "#NAN"
-    elif "#ERROR" in functions[key][1:]:
-        return "#ERROR"
-    else:
-        try:
-            return eval(functions[key][1:])  # pythonic evaluation
-        except:
-            return "#ERROR"  # syntactical error
+    try:
+        return eval(functions[key][1:])  # pythonic evaluation
+    except:
+        return "#ERROR"  # syntactical error
 
 
 def main(args):
