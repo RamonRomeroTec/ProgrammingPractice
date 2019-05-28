@@ -49,6 +49,19 @@ def getvalue(cell_name, functions, matrix, visited):
 
 def evaluation(key, functions, matrix, visited):
     ''' Splitting  functions and keys'''
+
+    #(1,3)= "=A3+B3" 4, 3
+
+    # =4
+    # =(4+3)*3
+    # =7
+
+    # +
+    # 4 3
+
+
+
+
     cells = re.findall(r'[A-Z]+[0-9]+', functions[key][1:])  # find cells
     if key not in functions:
         return str(matrix[key[0]][key[1]])
@@ -63,7 +76,8 @@ def evaluation(key, functions, matrix, visited):
             return "#ERROR" 
         functions[key] = functions[key].replace(cell, s1)
     try:
-        return eval(functions[key][1:])  # pythonic evaluation
+        
+        return eval(functions[key][1:].replace('/','//' ))  # pythonic evaluation
     except:
         return "#ERROR"  # syntactical error
 
