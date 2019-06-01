@@ -1,4 +1,4 @@
-# IF NOT ORDERED DEFAULT DICT
+# IF NOT ORDERED DEFAULT DICT most_common([n]) de CONTADOR
 
 
 from collections import Counter, defaultdict
