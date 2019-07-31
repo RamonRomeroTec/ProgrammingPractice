@@ -1,13 +1,15 @@
-from collections import defaultdict
 class Solution(object):
     def groupAnagrams(self, strs):
         """
         :type strs: List[str]
         :rtype: List[List[str]]
         """
-        d=defaultdict(list)
+        d={}
         for s in strs:
-            aux = tuple(sorted(list(s)))
-            d[aux].append(s)
+            key= "".join(sorted(list(s)))
+            if key not in d:
+                d[key]=[s]
+            else:
+                d[key].append(s)
         return(d.values())
         
