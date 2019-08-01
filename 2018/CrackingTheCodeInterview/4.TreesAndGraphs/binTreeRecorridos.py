@@ -52,6 +52,20 @@ def amplitud(node):
                 return auxsearch(i,visited)
 
 
+def searchT(root, l):
+    if root:
+        if root.left:
+            searchT(root.left, l)
+        l.append(root.val)
+        if root.right:
+            searchT(root.right, l)
+    return l
+
+def search1(root):
+    return searchT(root, [])
+
+
+
 if __name__ == '__main__':
     a=BinTreeNode(1)
     c=BinTreeNode(3)
