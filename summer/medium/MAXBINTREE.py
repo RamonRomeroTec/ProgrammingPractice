@@ -7,7 +7,6 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-
 class Solution(object):
     def constructMaximumBinaryTree(self, nums):
         """
