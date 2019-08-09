@@ -1,3 +1,4 @@
+# sum (1,n) = (n*(n+1))//2
 class Solution(object):
     def distributeCandies(self, candies, num_people):
         """
@@ -26,4 +27,3 @@ class Solution(object):
            
         return arr
 
-print(Solution().distributeCandies(7,4))
