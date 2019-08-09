@@ -1,22 +1,19 @@
-# find -1, index try
-
 class Solution(object):
     def numUniqueEmails(self, emails):
         """
         :type emails: List[str]
         :rtype: int
         """
-        s=set()
-        for st in emails:
-            st=st.split('@')
-            a=st[0]
-            b=st[1]
-            a=a.replace('.','')
-            if a.find('+') != -1:
-                a=a[:a.find('+')]
-
-            s.add(a+'@'+b)
-        return len(s)
+        d = set()
+        for email in emails:
+            atindex= email.find('@')
+            user, domain = email[:atindex], email[atindex:] 
+            user = user.replace(".","")
+            if '+' in user:
+                user = user[:user.find('+')]
+            mail = user+domain
+            d.add(mail)
             
-                
+        return len(d)
+            
         
