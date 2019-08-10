@@ -1,3 +1,5 @@
+# return min(len(candies) / 2, len(set(candies))) simplify the problem to its rules
+
 from collections import Counter
 class Solution(object):
     def distributeCandies(self, candies):
@@ -7,11 +9,9 @@ class Solution(object):
         """
         d = Counter(candies)
         magic = sorted([[key, value] for key, value in d.items()], key= lambda x : x[1])[::-1]
-        girl = [0,set()]
-        boy = [0,set()]
+        girl = set()
         #while 1:
         spent = 0
-        b=0
         i=len(magic)-1
         while spent < len(candies)//2:
             if i<0:
@@ -20,16 +20,13 @@ class Solution(object):
             if magic[i][1] != 0:
                 magic[i][1]=magic[i][1]-1
                 spent = spent+1
-                girl[0]=girl[0]+1
-                girl[1].add(magic[i][0])
+                girl.add(magic[i][0])
                 i=i-1
             else:
                 i=i-1
                 continue
                
     
-        return len(girl[1])
-                
-                
-#print(Solution().distributeCandies([1,1,2,2,3,3]))
-print(Solution().distributeCandies([1,1,2,3]))
+        return len(girl)
+        # return min(len(candies) / 2, len(set(candies)))
+    
