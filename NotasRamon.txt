@@ -1,5 +1,7 @@
 
+int("010101", 2)
 
+format(15, b)
 
 Notas Ramón
 
