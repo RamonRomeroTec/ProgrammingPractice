@@ -1,3 +1,10 @@
+# elif nums[middle] > target: #move left
+#     return magia(nums, begin, middle-1, target)
+# else: # move right
+#     return magia(nums, middle+1, end, target)
+
+
+
 
 def magia(nums, begin, end, target):
     middle=(begin + end)//2

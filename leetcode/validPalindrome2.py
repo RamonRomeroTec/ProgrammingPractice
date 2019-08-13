@@ -1,4 +1,6 @@
-from collections import Counter
+# palindrome -> slicing
+
+
 class Solution(object):
     def validPalindrome(self, s):
         """
@@ -7,7 +9,6 @@ class Solution(object):
         """
         a=0
         b=len(s)-1
-        c=0
         s1=False
         s2=False
         
@@ -16,9 +17,7 @@ class Solution(object):
             ax=s[b]
             if s[a] != s[b]:
                 
-                c+=1
-                if c>1:
-                    return False
+             
                 if s[a+1]==s[b]:
                     help1=a+1
                     help2=b
@@ -43,15 +42,15 @@ class Solution(object):
                             help1+=1
                             help2-=1
                         s2=True
+                        
+                
                 if s1 or s2:
                     return True
+                if s[a+1]!=s[b] or s[a]!=s[b-1]:
+                    return False
             a+=1
             b-=1
         return True
                     
             
             
-                
-            
-print(Solution().validPalindrome(list("aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga")))
-        
