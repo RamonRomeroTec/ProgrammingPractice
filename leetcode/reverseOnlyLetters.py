@@ -1,32 +1,31 @@
 class Solution(object):
-    def reverseOnlyLetters(self, S):
-        """
-        :type S: str
-        :rtype: str
-        """
-        a=0
-        b=len(S)-1
-        s=list(map(str, S))
-        
-        while b>=a:
-            if s[a].isalpha() and s[b].isalpha(): 
-                s[a], s[b] =s[b], s[a]
-                b-=1
-                a+=1
-            else:
-                while a<(len(S)//2)+1:
-                    if s[a].isalpha():
-                        break
-                    else:
-                        a+=1
-                while b>(len(S)//2)-1:
-                    if s[b].isalpha():
-                        break
-                    else:
-                        b-=1
-            
-                        
+    def reverseOnlyLetters(self, s):
+        if len(s)<2:
+            return s
+        end=len(s)-1
+        begin = 0
+        s=list(map(str, s))
+        while (begin <= end):
+            if s[begin].isalpha() and s[end].isalpha():
+                s[begin],s[end] = s[end], s[begin]
+                begin+=1
+                end-=1
+            while not s[begin].isalpha() and begin<len(s)-1:
+                begin+=1
+                if s[begin].isalpha():
+                    break
+            while not s[end].isalpha() and end>=0:
+                end-=1
+                if s[end].isalpha():
+                    break
         return "".join(s)
-
+            
         
-print(Solution().reverseOnlyLetters("z<*zj"))
+            
+            
+            
+            
+            
+            
+            
+        
