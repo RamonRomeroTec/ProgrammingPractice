@@ -7,7 +7,7 @@
 
 
 def magia(nums, begin, end, target):
-    middle=(begin + end)//2
+    intmiddle=(begin + end)//2
     if begin > end:
         return -1
     if target == nums[middle]:
