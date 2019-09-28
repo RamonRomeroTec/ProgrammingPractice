@@ -1,31 +1,17 @@
 class Solution(object):
     def reverseOnlyLetters(self, s):
-        if len(s)<2:
-            return s
-        end=len(s)-1
-        begin = 0
-        s=list(map(str, s))
-        while (begin <= end):
-            if s[begin].isalpha() and s[end].isalpha():
-                s[begin],s[end] = s[end], s[begin]
-                begin+=1
-                end-=1
-            while not s[begin].isalpha() and begin<len(s)-1:
-                begin+=1
-                if s[begin].isalpha():
-                    break
-            while not s[end].isalpha() and end>=0:
-                end-=1
-                if s[end].isalpha():
-                    break
+        a ,b = 0,len(s)-1
+        s=list(s)
+        while a<b:
+            if s[a].isalpha() and s[b].isalpha():
+                s[a], s[b] = s[b], s[a]
+                a+=1
+                b-=1
+            elif s[a].isalpha() and not s[b].isalpha():
+                b-=1
+            elif not s[a].isalpha() and s[b].isalpha():
+                a+=1
+            elif not s[a].isalpha() and not s[b].isalpha():
+                a+=1
+                b-=1
         return "".join(s)
-            
-        
-            
-            
-            
-            
-            
-            
-            
-        
