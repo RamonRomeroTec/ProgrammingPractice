@@ -33,5 +33,5 @@ echo "|:----:|:----:|"
 
 for filename in ./code/*.py; do
 
-    echo "|" `basename "$filename"` "|" `git log --diff-filter=A --date=local --follow --pretty=format:"%ad" -1 -- $filename` "|" 
+    echo "| [" `basename "$filename"` "] ($filename)|" `git log --diff-filter=A --date=local --follow --pretty=format:"%ad" -1 -- $filename` "|" 
 done
