@@ -28,7 +28,10 @@
     
 
 # #os.rename('a.txt', 'b.kml')
+echo "| Name | Date |"
+echo "|:----:|:----:|"
+
 for filename in ./code/*.py; do
 
-    echo `git log --diff-filter=A --follow --format=%aD -1 -- $filename` $filename
+    echo "|" `basename "$filename"` "|" `git log --diff-filter=A --date=local --follow --pretty=format:"%ad" -1 -- $filename` "|" 
 done
