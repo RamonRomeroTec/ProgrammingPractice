@@ -6,6 +6,7 @@
 * Friends who have helped and encouraged me to keep learning.
 * Teachers from Computer Science courses.
 
+
 | Name | Date |
 |:----:|:----:|
 |  <a href=./code/1.1.py>1.1.py </a> | Wed Sep 26 04:22:42 2018 |
@@ -161,6 +162,7 @@
 |  <a href=./code/convertToBase7.py>convertToBase7.py </a> | Tue Oct 8 01:48:53 2019 |
 |  <a href=./code/convertToTitle.py>convertToTitle.py </a> | Mon Oct 7 01:13:35 2019 |
 |  <a href=./code/countCharacters.py>countCharacters.py </a> | Mon Aug 26 23:54:37 2019 |
+|  <a href=./code/countNegatives.py>countNegatives.py </a> | |
 |  <a href=./code/countPrimeSetBits.py>countPrimeSetBits.py </a> | Mon Aug 12 14:10:11 2019 |
 |  <a href=./code/countPrimes.py>countPrimes.py </a> | Mon Jun 3 18:59:43 2019 |
 |  <a href=./code/countSegments.py>countSegments.py </a> | Tue Aug 27 23:54:38 2019 |
@@ -170,6 +172,7 @@
 |  <a href=./code/dayOfYear.py>dayOfYear.py </a> | Fri Sep 6 00:25:52 2019 |
 |  <a href=./code/debug.py>debug.py </a> | Fri Aug 9 03:18:07 2019 |
 |  <a href=./code/decompressRLElist.py>decompressRLElist.py </a> | Thu Jan 16 06:35:32 2020 |
+|  <a href=./code/deepestLeavesSum.py>deepestLeavesSum.py </a> | |
 |  <a href=./code/defangIPaddr.py>defangIPaddr.py </a> | Mon Jul 8 06:55:34 2019 |
 |  <a href=./code/deleteDuplicates.py>deleteDuplicates.py </a> | Tue Jun 11 02:09:07 2019 |
 |  <a href=./code/depositProfit.py>depositProfit.py </a> | Thu Dec 6 23:57:08 2018 |
@@ -190,6 +193,7 @@
 |  <a href=./code/findMaxConsecutiveOnes.py>findMaxConsecutiveOnes.py </a> | Thu May 30 04:59:08 2019 |
 |  <a href=./code/findMissingLetter.py>findMissingLetter.py </a> | Thu Jan 31 23:38:41 2019 |
 |  <a href=./code/findMode.py>findMode.py </a> | Tue Oct 8 01:48:53 2019 |
+|  <a href=./code/findNumbers.py>findNumbers.py </a> | |
 |  <a href=./code/findOcurrences.py>findOcurrences.py </a> | Fri Jun 21 01:55:48 2019 |
 |  <a href=./code/findRestaurant.py>findRestaurant.py </a> | Mon Aug 26 23:54:37 2019 |
 |  <a href=./code/findTheDifference.py>findTheDifference.py </a> | Tue Sep 4 03:36:56 2018 |
@@ -289,6 +293,7 @@
 |  <a href=./code/numPairsDivisibleBy60.py>numPairsDivisibleBy60.py </a> | Tue Oct 29 00:07:40 2019 |
 |  <a href=./code/numUniqueEmails.py>numUniqueEmails.py </a> | Wed Jun 19 03:53:16 2019 |
 |  <a href=./code/numberIsPalindrome.py>numberIsPalindrome.py </a> | Wed Sep 19 17:42:30 2018 |
+|  <a href=./code/numberOfSteps.py>numberOfSteps.py </a> | |
 |  <a href=./code/orangesRotting.py>orangesRotting.py </a> | Mon Sep 30 02:09:37 2019 |
 |  <a href=./code/palindromeRearranging.py>palindromeRearranging.py </a> | Tue Dec 4 04:06:19 2018 |
 |  <a href=./code/peakIndexInMountainArray.py>peakIndexInMountainArray.py </a> | Sat Feb 16 23:54:03 2019 |
@@ -339,10 +344,12 @@
 |  <a href=./code/squaresSortedArray.py>squaresSortedArray.py </a> | Fri Feb 15 01:11:43 2019 |
 |  <a href=./code/strStr.py>strStr.py </a> | Thu Aug 22 19:35:03 2019 |
 |  <a href=./code/subdomainVisits.py>subdomainVisits.py </a> | Sat Jun 1 01:58:26 2019 |
+|  <a href=./code/subtractProductAndSum.py>subtractProductAndSum.py </a> | |
 |  <a href=./code/subtreeWithAllDeepest.py>subtreeWithAllDeepest.py </a> | Tue Sep 24 00:09:06 2019 |
 |  <a href=./code/sudoku.py>sudoku.py </a> | Wed Sep 19 17:42:30 2018 |
 |  <a href=./code/sudoku2.py>sudoku2.py </a> | Sun Oct 7 05:24:10 2018 |
 |  <a href=./code/sumEvenAfterQueries.py>sumEvenAfterQueries.py </a> | Sun Feb 17 01:43:47 2019 |
+|  <a href=./code/sumEvenGrandparent.py>sumEvenGrandparent.py </a> | |
 |  <a href=./code/sumOfDigits.py>sumOfDigits.py </a> | Wed Sep 18 01:06:23 2019 |
 |  <a href=./code/sumOfLeftLeaves.py>sumOfLeftLeaves.py </a> | Fri Jun 21 01:55:48 2019 |
 |  <a href=./code/thirdMax.py>thirdMax.py </a> | Wed Sep 19 17:42:30 2018 |
