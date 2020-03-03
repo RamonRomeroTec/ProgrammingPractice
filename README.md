@@ -196,6 +196,7 @@
 |  <a href=./code/findNumbers.py>findNumbers.py </a> | Thu Feb 20 01:48:39 2020 |
 |  <a href=./code/findOcurrences.py>findOcurrences.py </a> | Fri Jun 21 01:55:48 2019 |
 |  <a href=./code/findRestaurant.py>findRestaurant.py </a> | Mon Aug 26 23:54:37 2019 |
+|  <a href=./code/findSpecialInteger.py>findSpecialInteger.py </a> | Thu Feb 27 01:09:32 2020 |
 |  <a href=./code/findTheDifference.py>findTheDifference.py </a> | Tue Sep 4 03:36:56 2018 |
 |  <a href=./code/findTheParityOutlier.py>findTheParityOutlier.py </a> | Wed Jan 30 00:33:11 2019 |
 |  <a href=./code/findUnsortedSubarray.py>findUnsortedSubarray.py </a> | Wed Sep 19 17:42:30 2018 |
@@ -214,10 +215,11 @@
 |  <a href=./code/generateMatrix.py>generateMatrix.py </a> | Mon Sep 30 02:09:37 2019 |
 |  <a href=./code/generatePascal.py>generatePascal.py </a> | Tue Oct 29 00:07:40 2019 |
 |  <a href=./code/generatenext.py>generatenext.py </a> | Tue Aug 20 01:30:41 2019 |
-|  <a href=./code/getAllElements.py>getAllElements.py </a> | |
+|  <a href=./code/getAllElements.py>getAllElements.py </a> | Mon Feb 24 01:04:03 2020 |
 |  <a href=./code/getDecimalValue.py>getDecimalValue.py </a> | Fri Feb 21 13:12:47 2020 |
 |  <a href=./code/getHint.py>getHint.py </a> | Thu Oct 31 04:29:11 2019 |
 |  <a href=./code/getMinimumDifference.py>getMinimumDifference.py </a> | Tue Aug 6 23:19:04 2019 |
+|  <a href=./code/getRow.py>getRow.py </a> | |
 |  <a href=./code/getSUM.py>getSUM.py </a> | Fri Aug 9 19:42:20 2019 |
 |  <a href=./code/goatLatin.py>goatLatin.py </a> | Fri Aug 2 03:28:27 2019 |
 |  <a href=./code/graphExercise.py>graphExercise.py </a> | Fri Oct 5 15:05:50 2018 |
@@ -260,6 +262,7 @@
 |  <a href=./code/judgeCircle.py>judgeCircle.py </a> | Fri Aug 31 16:27:02 2018 |
 |  <a href=./code/judgeSquareSum.py>judgeSquareSum.py </a> | Tue Aug 27 23:54:38 2019 |
 |  <a href=./code/jumpingOnTheClouds.py>jumpingOnTheClouds.py </a> | Tue Sep 25 02:29:04 2018 |
+|  <a href=./code/kWeakestRows.py>kWeakestRows.py </a> | Thu Feb 27 01:09:32 2020 |
 |  <a href=./code/kclosest.py>kclosest.py </a> | Fri Oct 4 00:39:45 2019 |
 |  <a href=./code/keepCitySkyline.py>keepCitySkyline.py </a> | Fri Feb 8 00:07:43 2019 |
 |  <a href=./code/kthSmallest.py>kthSmallest.py </a> | Mon Nov 5 01:30:57 2018 |
