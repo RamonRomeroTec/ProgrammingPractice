@@ -219,7 +219,7 @@
 |  <a href=./code/getDecimalValue.py>getDecimalValue.py </a> | Fri Feb 21 13:12:47 2020 |
 |  <a href=./code/getHint.py>getHint.py </a> | Thu Oct 31 04:29:11 2019 |
 |  <a href=./code/getMinimumDifference.py>getMinimumDifference.py </a> | Tue Aug 6 23:19:04 2019 |
-|  <a href=./code/getRow.py>getRow.py </a> | |
+|  <a href=./code/getRow.py>getRow.py </a> | Mon Mar 2 22:39:27 2020 |
 |  <a href=./code/getSUM.py>getSUM.py </a> | Fri Aug 9 19:42:20 2019 |
 |  <a href=./code/goatLatin.py>goatLatin.py </a> | Fri Aug 2 03:28:27 2019 |
 |  <a href=./code/graphExercise.py>graphExercise.py </a> | Fri Oct 5 15:05:50 2018 |
@@ -296,6 +296,7 @@
 |  <a href=./code/minimumAbsDifference.py>minimumAbsDifference.py </a> | Sat Oct 5 15:22:51 2019 |
 |  <a href=./code/mostCommonWord.py>mostCommonWord.py </a> | Thu Sep 5 00:46:21 2019 |
 |  <a href=./code/moveZeroes.py>moveZeroes.py </a> | Fri Sep 13 16:25:59 2019 |
+|  <a href=./code/mySqrt.py>mySqrt.py </a> | |
 |  <a href=./code/nextGreatestLetter.py>nextGreatestLetter.py </a> | Sat Oct 5 15:22:51 2019 |
 |  <a href=./code/numIslands.py>numIslands.py </a> | Thu Oct 24 00:30:38 2019 |
 |  <a href=./code/numKLenSubstrNoRepeats.py>numKLenSubstrNoRepeats.py </a> | Sun Oct 6 23:15:24 2019 |
@@ -345,6 +346,7 @@
 |  <a href=./code/shortestDistance.py>shortestDistance.py </a> | Mon Oct 28 00:19:18 2019 |
 |  <a href=./code/shortestToChar.py>shortestToChar.py </a> | Thu Jul 4 01:11:52 2019 |
 |  <a href=./code/singleNumber.py>singleNumber.py </a> | Thu Sep 12 01:45:07 2019 |
+|  <a href=./code/smallerNumbersThanCurrent.py>smallerNumbersThanCurrent.py </a> | |
 |  <a href=./code/smallestCommonElement.py>smallestCommonElement.py </a> | Mon Oct 7 01:13:35 2019 |
 |  <a href=./code/sortArray.py>sortArray.py </a> | Thu Aug 15 01:23:28 2019 |
 |  <a href=./code/sortArrayByParity.py>sortArrayByParity.py </a> | Tue May 21 04:01:05 2019 |
