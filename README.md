@@ -146,7 +146,7 @@
 |  <a href=./code/braces.py>braces.py </a> | Sun Nov 4 03:55:37 2018 |
 |  <a href=./code/calPoints.py>calPoints.py </a> | Fri Aug 9 03:18:07 2019 |
 |  <a href=./code/calculateTime.py>calculateTime.py </a> | Wed Sep 19 17:42:30 2018 |
-|  <a href=./code/canConstruct.py>canConstruct.py </a> | |
+|  <a href=./code/canConstruct.py>canConstruct.py </a> | Thu Mar 5 00:05:55 2020 |
 |  <a href=./code/canPermutePalindrome.py>canPermutePalindrome.py </a> | Fri Oct 25 16:06:58 2019 |
 |  <a href=./code/canPlaceFlowers.py>canPlaceFlowers.py </a> | Wed Oct 23 16:45:46 2019 |
 |  <a href=./code/canWinNim.py>canWinNim.py </a> | Wed Sep 4 23:45:52 2019 |
@@ -196,6 +196,7 @@
 |  <a href=./code/findMode.py>findMode.py </a> | Tue Oct 8 01:48:53 2019 |
 |  <a href=./code/findNumbers.py>findNumbers.py </a> | Thu Feb 20 01:48:39 2020 |
 |  <a href=./code/findOcurrences.py>findOcurrences.py </a> | Fri Jun 21 01:55:48 2019 |
+|  <a href=./code/findRelativeRanks.py>findRelativeRanks.py </a> | |
 |  <a href=./code/findRestaurant.py>findRestaurant.py </a> | Mon Aug 26 23:54:37 2019 |
 |  <a href=./code/findSpecialInteger.py>findSpecialInteger.py </a> | Thu Feb 27 01:09:32 2020 |
 |  <a href=./code/findTheDifference.py>findTheDifference.py </a> | Tue Sep 4 03:36:56 2018 |
