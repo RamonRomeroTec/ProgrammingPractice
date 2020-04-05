@@ -169,6 +169,7 @@
 |  <a href=./code/countSegments.py>countSegments.py </a> | Tue Aug 27 23:54:38 2019 |
 |  <a href=./code/countingValleys.py>countingValleys.py </a> | Tue Sep 25 02:29:04 2018 |
 |  <a href=./code/crawl.py>crawl.py </a> | Thu Oct 31 04:29:11 2019 |
+|  <a href=./code/createTargetArray.py>createTargetArray.py </a> | Sun Apr 5 03:06:10 2020 |
 |  <a href=./code/customSortString.py>customSortString.py </a> | Thu Aug 15 01:23:28 2019 |
 |  <a href=./code/dayOfYear.py>dayOfYear.py </a> | Fri Sep 6 00:25:52 2019 |
 |  <a href=./code/debug.py>debug.py </a> | Fri Aug 9 03:18:07 2019 |
@@ -196,7 +197,7 @@
 |  <a href=./code/findMode.py>findMode.py </a> | Tue Oct 8 01:48:53 2019 |
 |  <a href=./code/findNumbers.py>findNumbers.py </a> | Thu Feb 20 01:48:39 2020 |
 |  <a href=./code/findOcurrences.py>findOcurrences.py </a> | Fri Jun 21 01:55:48 2019 |
-|  <a href=./code/findRelativeRanks.py>findRelativeRanks.py </a> | |
+|  <a href=./code/findRelativeRanks.py>findRelativeRanks.py </a> | Tue Mar 10 23:09:21 2020 |
 |  <a href=./code/findRestaurant.py>findRestaurant.py </a> | Mon Aug 26 23:54:37 2019 |
 |  <a href=./code/findSpecialInteger.py>findSpecialInteger.py </a> | Thu Feb 27 01:09:32 2020 |
 |  <a href=./code/findTheDifference.py>findTheDifference.py </a> | Tue Sep 4 03:36:56 2018 |
@@ -223,6 +224,7 @@
 |  <a href=./code/getMinimumDifference.py>getMinimumDifference.py </a> | Tue Aug 6 23:19:04 2019 |
 |  <a href=./code/getRow.py>getRow.py </a> | Mon Mar 2 22:39:27 2020 |
 |  <a href=./code/getSUM.py>getSUM.py </a> | Fri Aug 9 19:42:20 2019 |
+|  <a href=./code/getTargetCopy.py>getTargetCopy.py </a> | Sun Apr 5 03:06:10 2020 |
 |  <a href=./code/goatLatin.py>goatLatin.py </a> | Fri Aug 2 03:28:27 2019 |
 |  <a href=./code/graphExercise.py>graphExercise.py </a> | Fri Oct 5 15:05:50 2018 |
 |  <a href=./code/graphsSearches.py>graphsSearches.py </a> | Thu Oct 4 23:52:57 2018 |
@@ -241,6 +243,7 @@
 |  <a href=./code/isBoomerang.py>isBoomerang.py </a> | Sun Oct 6 23:15:24 2019 |
 |  <a href=./code/isCousins.py>isCousins.py </a> | Fri Nov 8 00:28:34 2019 |
 |  <a href=./code/isCryptSolution.py>isCryptSolution.py </a> | Sun Oct 7 05:24:10 2018 |
+|  <a href=./code/isHappy.py>isHappy.py </a> | Sun Apr 5 03:06:10 2020 |
 |  <a href=./code/isIPv4.py>isIPv4.py </a> | Tue Dec 4 04:06:19 2018 |
 |  <a href=./code/isIsomorphic.py>isIsomorphic.py </a> | Tue Aug 27 23:54:38 2019 |
 |  <a href=./code/isListPalindrome.py>isListPalindrome.py </a> | Sun Oct 7 05:24:10 2018 |
