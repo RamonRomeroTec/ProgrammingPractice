@@ -284,6 +284,7 @@
 |  <a href=./code/linked.py>linked.py </a> | Fri Feb 8 00:07:43 2019 |
 |  <a href=./code/longestPalindrome.py>longestPalindrome.py </a> | Fri Aug 9 19:42:20 2019 |
 |  <a href=./code/longestPalindromic.py>longestPalindromic.py </a> | Sun Sep 29 15:31:21 2019 |
+|  <a href=./code/luckyNumbers.py>luckyNumbers.py </a> | Sun Apr 12 01:04:00 2020 |
 |  <a href=./code/mames.py>mames.py </a> | Sat Oct 19 21:11:15 2019 |
 |  <a href=./code/matrixElementSum.py>matrixElementSum.py </a> | Tue Dec 4 01:56:36 2018 |
 |  <a href=./code/maxDepth.py>maxDepth.py </a> | Thu Jul 4 00:50:54 2019 |
