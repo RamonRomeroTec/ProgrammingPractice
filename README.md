@@ -184,6 +184,7 @@
 |  <a href=./code/depthSum.py>depthSum.py </a> | Sun Sep 29 15:31:21 2019 |
 |  <a href=./code/detectCapitalUse.py>detectCapitalUse.py </a> | Tue Aug 13 19:05:23 2019 |
 |  <a href=./code/diStringMatch.py>diStringMatch.py </a> | Fri Feb 15 23:54:32 2019 |
+|  <a href=./code/diameterOfBinaryTree.py>diameterOfBinaryTree.py </a> | Thu Apr 16 01:14:53 2020 |
 |  <a href=./code/distanceBetweenBusStops.py>distanceBetweenBusStops.py </a> | Thu Sep 12 01:45:07 2019 |
 |  <a href=./code/distributeCandies.py>distributeCandies.py </a> | Fri Aug 9 03:18:07 2019 |
 |  <a href=./code/duplicateZeros.py>duplicateZeros.py </a> | Sat Aug 3 22:29:00 2019 |
