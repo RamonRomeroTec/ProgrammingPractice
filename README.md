@@ -227,6 +227,7 @@
 |  <a href=./code/getAllElements.py>getAllElements.py </a> | Mon Feb 24 01:04:03 2020 |
 |  <a href=./code/getDecimalValue.py>getDecimalValue.py </a> | Fri Feb 21 13:12:47 2020 |
 |  <a href=./code/getHint.py>getHint.py </a> | Thu Oct 31 04:29:11 2019 |
+|  <a href=./code/getKth.py>getKth.py </a> | Sat Apr 18 00:42:20 2020 |
 |  <a href=./code/getMinimumDifference.py>getMinimumDifference.py </a> | Tue Aug 6 23:19:04 2019 |
 |  <a href=./code/getRow.py>getRow.py </a> | Mon Mar 2 22:39:27 2020 |
 |  <a href=./code/getSUM.py>getSUM.py </a> | Fri Aug 9 19:42:20 2019 |
