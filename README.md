@@ -83,6 +83,8 @@
 |  <a href=./code/MissingNumber.py>MissingNumber.py </a> | Thu Oct 25 04:58:26 2018 |
 |  <a href=./code/MovingAverage.py>MovingAverage.py </a> | Thu Sep 19 01:03:55 2019 |
 |  <a href=./code/MyCircularQueue.py>MyCircularQueue.py </a> | Sat Sep 28 17:25:33 2019 |
+|  <a href=./code/MyHashMap.py>MyHashMap.py </a> | Tue Apr 21 13:45:20 2020 |
+|  <a href=./code/MyHashSet.py>MyHashSet.py </a> | Wed Sep 19 17:42:30 2018 |
 |  <a href=./code/MyQueue.py>MyQueue.py </a> | Sun Oct 20 16:19:31 2019 |
 |  <a href=./code/MyStack.py>MyStack.py </a> | Thu Oct 31 04:29:11 2019 |
 |  <a href=./code/NUMBEROFLINES.py>NUMBEROFLINES.py </a> | Wed Jul 31 03:45:51 2019 |
@@ -96,6 +98,7 @@
 |  <a href=./code/REMOVELINKEDLISTELEMENTS.py>REMOVELINKEDLISTELEMENTS.py </a> | Tue Jun 11 03:18:43 2019 |
 |  <a href=./code/REMOVEOUTERPARENTESIS.py>REMOVEOUTERPARENTESIS.py </a> | Tue Aug 6 23:19:04 2019 |
 |  <a href=./code/RandomizedSet.py>RandomizedSet.py </a> | Sun Oct 20 16:19:31 2019 |
+|  <a href=./code/RecentCounter.py>RecentCounter.py </a> | Tue Apr 21 13:45:20 2020 |
 |  <a href=./code/RepeatedString.py>RepeatedString.py </a> | Tue Sep 25 02:29:04 2018 |
 |  <a href=./code/ReverseWordsInAStringII.py>ReverseWordsInAStringII.py </a> | Sun Sep 9 03:42:00 2018 |
 |  <a href=./code/ReversedLinkedList.py>ReversedLinkedList.py </a> | Sun Oct 14 00:14:31 2018 |
@@ -304,6 +307,7 @@
 |  <a href=./code/minDepth.py>minDepth.py </a> | Thu Sep 5 00:18:35 2019 |
 |  <a href=./code/minDiffInBST.py>minDiffInBST.py </a> | Fri Nov 8 00:28:34 2019 |
 |  <a href=./code/minStackMemory.py>minStackMemory.py </a> | Thu Oct 24 00:30:38 2019 |
+|  <a href=./code/minStartValue.py>minStartValue.py </a> | Tue Apr 21 13:45:20 2020 |
 |  <a href=./code/minSteps.py>minSteps.py </a> | Fri Feb 21 01:15:01 2020 |
 |  <a href=./code/minTimeToVisitAllPoints.py>minTimeToVisitAllPoints.py </a> | Fri Feb 21 13:12:47 2020 |
 |  <a href=./code/minesweeper.py>minesweeper.py </a> | Wed Dec 5 05:05:25 2018 |
@@ -370,6 +374,7 @@
 |  <a href=./code/sortedSquare.py>sortedSquare.py </a> | Tue May 28 04:04:17 2019 |
 |  <a href=./code/squaresSortedArray.py>squaresSortedArray.py </a> | Fri Feb 15 01:11:43 2019 |
 |  <a href=./code/strStr.py>strStr.py </a> | Thu Aug 22 19:35:03 2019 |
+|  <a href=./code/stringMatching.py>stringMatching.py </a> | Tue Apr 21 13:45:20 2020 |
 |  <a href=./code/subdomainVisits.py>subdomainVisits.py </a> | Sat Jun 1 01:58:26 2019 |
 |  <a href=./code/subtractProductAndSum.py>subtractProductAndSum.py </a> | Thu Feb 20 01:48:39 2020 |
 |  <a href=./code/subtreeWithAllDeepest.py>subtreeWithAllDeepest.py </a> | Tue Sep 24 00:09:06 2019 |
