@@ -137,6 +137,7 @@
 |  <a href=./code/areSimilar.py>areSimilar.py </a> | Tue Dec 4 04:06:19 2018 |
 |  <a href=./code/arrayMaximalDifference.py>arrayMaximalDifference.py </a> | Tue Dec 4 04:06:19 2018 |
 |  <a href=./code/arrayPairSum.py>arrayPairSum.py </a> | Mon Feb 18 22:24:54 2019 |
+|  <a href=./code/arrayRankTransform.py>arrayRankTransform.py </a> | Thu Apr 23 01:05:08 2020 |
 |  <a href=./code/arrayReplace.py>arrayReplace.py </a> | Wed Dec 5 20:38:01 2018 |
 |  <a href=./code/arraysIntersection.py>arraysIntersection.py </a> | Sat Oct 5 15:22:51 2019 |
 |  <a href=./code/averageofLevels.py>averageofLevels.py </a> | Thu Aug 1 03:35:09 2019 |
@@ -177,6 +178,7 @@
 |  <a href=./code/crawl.py>crawl.py </a> | Thu Oct 31 04:29:11 2019 |
 |  <a href=./code/createTargetArray.py>createTargetArray.py </a> | Sun Apr 5 03:06:10 2020 |
 |  <a href=./code/customSortString.py>customSortString.py </a> | Thu Aug 15 01:23:28 2019 |
+|  <a href=./code/dayOfTheWeek.py>dayOfTheWeek.py </a> | Thu Apr 23 01:05:08 2020 |
 |  <a href=./code/dayOfYear.py>dayOfYear.py </a> | Fri Sep 6 00:25:52 2019 |
 |  <a href=./code/debug.py>debug.py </a> | Fri Aug 9 03:18:07 2019 |
 |  <a href=./code/decompressRLElist.py>decompressRLElist.py </a> | Thu Jan 16 06:35:32 2020 |
@@ -239,6 +241,7 @@
 |  <a href=./code/graphExercise.py>graphExercise.py </a> | Fri Oct 5 15:05:50 2018 |
 |  <a href=./code/graphsSearches.py>graphsSearches.py </a> | Thu Oct 4 23:52:57 2018 |
 |  <a href=./code/groupAnagrams.py>groupAnagrams.py </a> | Wed Jul 31 03:59:34 2019 |
+|  <a href=./code/hammingWeight.py>hammingWeight.py </a> | Thu Apr 23 01:05:08 2020 |
 |  <a href=./code/hasAlternatingBits.py>hasAlternatingBits.py </a> | Fri Oct 19 02:06:17 2018 |
 |  <a href=./code/hasCycle.py>hasCycle.py </a> | Tue Jun 11 02:09:07 2019 |
 |  <a href=./code/hasPathSum.py>hasPathSum.py </a> | Fri Aug 16 02:22:24 2019 |
@@ -337,12 +340,14 @@
 |  <a href=./code/regexValidatePin.py>regexValidatePin.py </a> | Wed Jan 30 00:33:11 2019 |
 |  <a href=./code/relativeSortArray.py>relativeSortArray.py </a> | Sun Jul 28 03:54:17 2019 |
 |  <a href=./code/removeDuplicates.py>removeDuplicates.py </a> | Wed Jun 12 01:20:13 2019 |
+|  <a href=./code/removeLeafNodes.py>removeLeafNodes.py </a> | Thu Apr 23 01:05:08 2020 |
 |  <a href=./code/removeVowels.py>removeVowels.py </a> | Wed Sep 18 00:29:41 2019 |
 |  <a href=./code/removeminimum.py>removeminimum.py </a> | Wed Jan 30 00:33:11 2019 |
 |  <a href=./code/reorderLogFiles.py>reorderLogFiles.py </a> | Thu Sep 19 01:03:55 2019 |
 |  <a href=./code/repeatedNFiles.py>repeatedNFiles.py </a> | Fri Feb 15 23:54:32 2019 |
 |  <a href=./code/repeatedStringMatch.py>repeatedStringMatch.py </a> | Mon Sep 30 02:09:37 2019 |
 |  <a href=./code/replaceElements.py>replaceElements.py </a> | Wed Sep 19 17:42:30 2018 |
+|  <a href=./code/reverseBits.py>reverseBits.py </a> | Thu Apr 23 01:05:08 2020 |
 |  <a href=./code/reverseLinkedList.py>reverseLinkedList.py </a> | Thu Oct 25 03:24:46 2018 |
 |  <a href=./code/reverseList.py>reverseList.py </a> | Fri Jun 7 01:35:57 2019 |
 |  <a href=./code/reverseNodesInKGroups.py>reverseNodesInKGroups.py </a> | Sun Oct 7 05:24:10 2018 |
@@ -371,6 +376,7 @@
 |  <a href=./code/sortArrayPair.py>sortArrayPair.py </a> | Fri Feb 15 01:11:43 2019 |
 |  <a href=./code/sortByBits.py>sortByBits.py </a> | Mon Apr 6 18:21:50 2020 |
 |  <a href=./code/sortByHeight.py>sortByHeight.py </a> | Tue Dec 4 01:56:36 2018 |
+|  <a href=./code/sortString.py>sortString.py </a> | Thu Apr 23 01:05:08 2020 |
 |  <a href=./code/sortedSquare.py>sortedSquare.py </a> | Tue May 28 04:04:17 2019 |
 |  <a href=./code/squaresSortedArray.py>squaresSortedArray.py </a> | Fri Feb 15 01:11:43 2019 |
 |  <a href=./code/strStr.py>strStr.py </a> | Thu Aug 22 19:35:03 2019 |
@@ -387,6 +393,7 @@
 |  <a href=./code/sumZero.py>sumZero.py </a> | Fri Feb 21 01:15:01 2020 |
 |  <a href=./code/thirdMax.py>thirdMax.py </a> | Wed Sep 19 17:42:30 2018 |
 |  <a href=./code/toLoweCase.py>toLoweCase.py </a> | Fri Feb 15 23:54:32 2019 |
+|  <a href=./code/trailingZeroes.py>trailingZeroes.py </a> | Thu Apr 23 01:05:08 2020 |
 |  <a href=./code/transformArray.py>transformArray.py </a> | Sat Nov 9 00:36:15 2019 |
 |  <a href=./code/transposeMatrix.py>transposeMatrix.py </a> | Wed May 29 03:54:47 2019 |
 |  <a href=./code/trees.py>trees.py </a> | Thu Nov 14 22:24:00 2019 |
