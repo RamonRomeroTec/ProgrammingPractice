@@ -157,6 +157,7 @@
 |  <a href=./code/canPlaceFlowers.py>canPlaceFlowers.py </a> | Wed Oct 23 16:45:46 2019 |
 |  <a href=./code/canWinNim.py>canWinNim.py </a> | Wed Sep 4 23:45:52 2019 |
 |  <a href=./code/chars.py>chars.py </a> | Sun Nov 4 03:55:37 2018 |
+|  <a href=./code/checkIfExist.py>checkIfExist.py </a> | Sat May 2 00:35:52 2020 |
 |  <a href=./code/checkPermutations.py>checkPermutations.py </a> | Thu Oct 25 03:24:46 2018 |
 |  <a href=./code/checkPosbility.py>checkPosbility.py </a> | Wed Sep 19 17:42:30 2018 |
 |  <a href=./code/chessBoardCellColector.py>chessBoardCellColector.py </a> | Wed Dec 5 20:38:01 2018 |
@@ -289,6 +290,7 @@
 |  <a href=./code/lengthOfLastWord.py>lengthOfLastWord.py </a> | Sat Aug 24 23:29:49 2019 |
 |  <a href=./code/letterCombinations.py>letterCombinations.py </a> | Thu Sep 19 01:03:55 2019 |
 |  <a href=./code/levelOrder.py>levelOrder.py </a> | Mon Aug 12 02:45:02 2019 |
+|  <a href=./code/levelOrderBottom.py>levelOrderBottom.py </a> | Sat May 2 00:35:52 2020 |
 |  <a href=./code/linked.py>linked.py </a> | Fri Feb 8 00:07:43 2019 |
 |  <a href=./code/longestPalindrome.py>longestPalindrome.py </a> | Fri Aug 9 19:42:20 2019 |
 |  <a href=./code/longestPalindromic.py>longestPalindromic.py </a> | Sun Sep 29 15:31:21 2019 |
@@ -337,6 +339,7 @@
 |  <a href=./code/projectionArea.py>projectionArea.py </a> | Wed Jul 3 23:32:36 2019 |
 |  <a href=./code/ransomnote.py>ransomnote.py </a> | Tue Sep 25 02:29:04 2018 |
 |  <a href=./code/rearrangeLastN.py>rearrangeLastN.py </a> | Sun Oct 7 05:24:10 2018 |
+|  <a href=./code/reformat.py>reformat.py </a> | Sat May 2 00:35:52 2020 |
 |  <a href=./code/regexValidatePin.py>regexValidatePin.py </a> | Wed Jan 30 00:33:11 2019 |
 |  <a href=./code/relativeSortArray.py>relativeSortArray.py </a> | Sun Jul 28 03:54:17 2019 |
 |  <a href=./code/removeDuplicates.py>removeDuplicates.py </a> | Wed Jun 12 01:20:13 2019 |
@@ -371,6 +374,7 @@
 |  <a href=./code/singleNumber.py>singleNumber.py </a> | Thu Sep 12 01:45:07 2019 |
 |  <a href=./code/smallerNumbersThanCurrent.py>smallerNumbersThanCurrent.py </a> | Tue Mar 3 23:17:01 2020 |
 |  <a href=./code/smallestCommonElement.py>smallestCommonElement.py </a> | Mon Oct 7 01:13:35 2019 |
+|  <a href=./code/smallestRepunitDivByK.py>smallestRepunitDivByK.py </a> | Sat May 2 00:35:52 2020 |
 |  <a href=./code/sortArray.py>sortArray.py </a> | Thu Aug 15 01:23:28 2019 |
 |  <a href=./code/sortArrayByParity.py>sortArrayByParity.py </a> | Tue May 21 04:01:05 2019 |
 |  <a href=./code/sortArrayPair.py>sortArrayPair.py </a> | Fri Feb 15 01:11:43 2019 |
