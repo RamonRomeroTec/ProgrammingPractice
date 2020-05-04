@@ -246,6 +246,7 @@
 |  <a href=./code/hasAlternatingBits.py>hasAlternatingBits.py </a> | Fri Oct 19 02:06:17 2018 |
 |  <a href=./code/hasCycle.py>hasCycle.py </a> | Tue Jun 11 02:09:07 2019 |
 |  <a href=./code/hasPathSum.py>hasPathSum.py </a> | Fri Aug 16 02:22:24 2019 |
+|  <a href=./code/he.py>he.py </a> | Sun May 3 23:47:12 2020 |
 |  <a href=./code/heighChecker.py>heighChecker.py </a> | Tue May 28 04:04:17 2019 |
 |  <a href=./code/highFive.py>highFive.py </a> | Wed Sep 18 00:29:41 2019 |
 |  <a href=./code/init.py>init.py </a> | Sun Oct 7 00:16:22 2018 |
@@ -284,6 +285,7 @@
 |  <a href=./code/kWeakestRows.py>kWeakestRows.py </a> | Thu Feb 27 01:09:32 2020 |
 |  <a href=./code/kclosest.py>kclosest.py </a> | Fri Oct 4 00:39:45 2019 |
 |  <a href=./code/keepCitySkyline.py>keepCitySkyline.py </a> | Fri Feb 8 00:07:43 2019 |
+|  <a href=./code/kidsWithCandies.py>kidsWithCandies.py </a> | Sun May 3 23:47:12 2020 |
 |  <a href=./code/kthSmallest.py>kthSmallest.py </a> | Mon Nov 5 01:30:57 2018 |
 |  <a href=./code/largestTimeFromDigits.py>largestTimeFromDigits.py </a> | Wed Mar 4 00:11:58 2020 |
 |  <a href=./code/largestUniqueNumber.py>largestUniqueNumber.py </a> | Thu Sep 19 01:03:55 2019 |
