@@ -150,6 +150,8 @@
 |  <a href=./code/bitwiseComplement.py>bitwiseComplement.py </a> | Tue Aug 13 01:34:34 2019 |
 |  <a href=./code/boxblur.py>boxblur.py </a> | Wed Dec 5 05:05:25 2018 |
 |  <a href=./code/braces.py>braces.py </a> | Sun Nov 4 03:55:37 2018 |
+|  <a href=./code/buildArray.py>buildArray.py </a> | Fri May 22 13:49:29 2020 |
+|  <a href=./code/busyStudent.py>busyStudent.py </a> | Fri May 22 13:49:29 2020 |
 |  <a href=./code/calPoints.py>calPoints.py </a> | Fri Aug 9 03:18:07 2019 |
 |  <a href=./code/calculateTime.py>calculateTime.py </a> | Wed Sep 19 17:42:30 2018 |
 |  <a href=./code/canConstruct.py>canConstruct.py </a> | Thu Mar 5 00:05:55 2020 |
@@ -188,6 +190,7 @@
 |  <a href=./code/deleteDuplicates.py>deleteDuplicates.py </a> | Tue Jun 11 02:09:07 2019 |
 |  <a href=./code/depositProfit.py>depositProfit.py </a> | Thu Dec 6 23:57:08 2018 |
 |  <a href=./code/depthSum.py>depthSum.py </a> | Sun Sep 29 15:31:21 2019 |
+|  <a href=./code/destCity.py>destCity.py </a> | Sat May 9 01:00:10 2020 |
 |  <a href=./code/detectCapitalUse.py>detectCapitalUse.py </a> | Tue Aug 13 19:05:23 2019 |
 |  <a href=./code/diStringMatch.py>diStringMatch.py </a> | Fri Feb 15 23:54:32 2019 |
 |  <a href=./code/diameterOfBinaryTree.py>diameterOfBinaryTree.py </a> | Thu Apr 16 01:14:53 2020 |
@@ -304,6 +307,7 @@
 |  <a href=./code/maxLevelSum.py>maxLevelSum.py </a> | Mon Aug 26 23:54:37 2019 |
 |  <a href=./code/maxNumberOfApples.py>maxNumberOfApples.py </a> | Mon Oct 21 00:02:04 2019 |
 |  <a href=./code/maxNumberOfBalloons.py>maxNumberOfBalloons.py </a> | Fri Oct 25 16:06:58 2019 |
+|  <a href=./code/maxPower.py>maxPower.py </a> | |
 |  <a href=./code/maximum69Number.py>maximum69Number.py </a> | Fri Feb 21 13:12:47 2020 |
 |  <a href=./code/mendianSortedArrays.py>mendianSortedArrays.py </a> | Sun Oct 21 02:48:53 2018 |
 |  <a href=./code/mergeTwoBinaryTrees.py>mergeTwoBinaryTrees.py </a> | Sat Oct 20 02:29:44 2018 |
