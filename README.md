@@ -111,6 +111,7 @@
 |  <a href=./code/SingleNonDuplicated.py>SingleNonDuplicated.py </a> | Mon Aug 19 12:47:21 2019 |
 |  <a href=./code/SockMerchant.py>SockMerchant.py </a> | Wed Sep 19 17:42:30 2018 |
 |  <a href=./code/SortedToBTS.py>SortedToBTS.py </a> | Thu Oct 25 04:58:26 2018 |
+|  <a href=./code/SubrectangleQueries.py>SubrectangleQueries.py </a> | Thu Jun 18 23:53:24 2020 |
 |  <a href=./code/Subsets.py>Subsets.py </a> | Sun Oct 28 05:06:12 2018 |
 |  <a href=./code/TRIMBST.py>TRIMBST.py </a> | Wed Aug 7 03:33:40 2019 |
 |  <a href=./code/TWOSUMSORTED.py>TWOSUMSORTED.py </a> | Fri May 31 20:13:34 2019 |
@@ -154,6 +155,7 @@
 |  <a href=./code/busyStudent.py>busyStudent.py </a> | Fri May 22 13:49:29 2020 |
 |  <a href=./code/calPoints.py>calPoints.py </a> | Fri Aug 9 03:18:07 2019 |
 |  <a href=./code/calculateTime.py>calculateTime.py </a> | Wed Sep 19 17:42:30 2018 |
+|  <a href=./code/canBeEqual.py>canBeEqual.py </a> | Thu Jun 18 23:53:24 2020 |
 |  <a href=./code/canConstruct.py>canConstruct.py </a> | Thu Mar 5 00:05:55 2020 |
 |  <a href=./code/canPermutePalindrome.py>canPermutePalindrome.py </a> | Fri Oct 25 16:06:58 2019 |
 |  <a href=./code/canPlaceFlowers.py>canPlaceFlowers.py </a> | Wed Oct 23 16:45:46 2019 |
@@ -162,6 +164,7 @@
 |  <a href=./code/checkIfExist.py>checkIfExist.py </a> | Sat May 2 00:35:52 2020 |
 |  <a href=./code/checkPermutations.py>checkPermutations.py </a> | Thu Oct 25 03:24:46 2018 |
 |  <a href=./code/checkPosbility.py>checkPosbility.py </a> | Wed Sep 19 17:42:30 2018 |
+|  <a href=./code/checkStraightLine.py>checkStraightLine.py </a> | Thu Jun 18 23:53:24 2020 |
 |  <a href=./code/chessBoardCellColector.py>chessBoardCellColector.py </a> | Wed Dec 5 20:38:01 2018 |
 |  <a href=./code/circleOfNumbers.py>circleOfNumbers.py </a> | Thu Dec 6 23:57:08 2018 |
 |  <a href=./code/commonCharacterCount.py>commonCharacterCount.py </a> | Tue Dec 4 01:56:36 2018 |
@@ -196,6 +199,7 @@
 |  <a href=./code/diameterOfBinaryTree.py>diameterOfBinaryTree.py </a> | Thu Apr 16 01:14:53 2020 |
 |  <a href=./code/distanceBetweenBusStops.py>distanceBetweenBusStops.py </a> | Thu Sep 12 01:45:07 2019 |
 |  <a href=./code/distributeCandies.py>distributeCandies.py </a> | Fri Aug 9 03:18:07 2019 |
+|  <a href=./code/dominantIndex.py>dominantIndex.py </a> | Wed Sep 19 17:42:30 2018 |
 |  <a href=./code/duplicateZeros.py>duplicateZeros.py </a> | Sat Aug 3 22:29:00 2019 |
 |  <a href=./code/encoded.py>encoded.py </a> | Sun Nov 4 03:55:37 2018 |
 |  <a href=./code/evendigitsonly.py>evendigitsonly.py </a> | Wed Dec 5 20:38:01 2018 |
@@ -211,6 +215,7 @@
 |  <a href=./code/findMode.py>findMode.py </a> | Tue Oct 8 01:48:53 2019 |
 |  <a href=./code/findNumbers.py>findNumbers.py </a> | Thu Feb 20 01:48:39 2020 |
 |  <a href=./code/findOcurrences.py>findOcurrences.py </a> | Fri Jun 21 01:55:48 2019 |
+|  <a href=./code/findPairs.py>findPairs.py </a> | Thu Jun 18 23:53:24 2020 |
 |  <a href=./code/findRelativeRanks.py>findRelativeRanks.py </a> | Tue Mar 10 23:09:21 2020 |
 |  <a href=./code/findRestaurant.py>findRestaurant.py </a> | Mon Aug 26 23:54:37 2019 |
 |  <a href=./code/findSpecialInteger.py>findSpecialInteger.py </a> | Thu Feb 27 01:09:32 2020 |
@@ -239,17 +244,20 @@
 |  <a href=./code/getImportance.py>getImportance.py </a> | Sun Jun 7 02:43:53 2020 |
 |  <a href=./code/getKth.py>getKth.py </a> | Sat Apr 18 00:42:20 2020 |
 |  <a href=./code/getMinimumDifference.py>getMinimumDifference.py </a> | Tue Aug 6 23:19:04 2019 |
-|  <a href=./code/getNoZeroIntegers.py>getNoZeroIntegers.py </a> | |
+|  <a href=./code/getNoZeroIntegers.py>getNoZeroIntegers.py </a> | Wed Jun 10 01:43:59 2020 |
 |  <a href=./code/getRow.py>getRow.py </a> | Mon Mar 2 22:39:27 2020 |
 |  <a href=./code/getSUM.py>getSUM.py </a> | Fri Aug 9 19:42:20 2019 |
 |  <a href=./code/getTargetCopy.py>getTargetCopy.py </a> | Sun Apr 5 03:06:10 2020 |
 |  <a href=./code/goatLatin.py>goatLatin.py </a> | Fri Aug 2 03:28:27 2019 |
+|  <a href=./code/goodNodes.py>goodNodes.py </a> | |
 |  <a href=./code/graphExercise.py>graphExercise.py </a> | Fri Oct 5 15:05:50 2018 |
 |  <a href=./code/graphsSearches.py>graphsSearches.py </a> | Thu Oct 4 23:52:57 2018 |
 |  <a href=./code/groupAnagrams.py>groupAnagrams.py </a> | Wed Jul 31 03:59:34 2019 |
+|  <a href=./code/guessNumber.py>guessNumber.py </a> | Fri Jun 12 01:06:20 2020 |
 |  <a href=./code/hammingWeight.py>hammingWeight.py </a> | Thu Apr 23 01:05:08 2020 |
 |  <a href=./code/hasAlternatingBits.py>hasAlternatingBits.py </a> | Fri Oct 19 02:06:17 2018 |
 |  <a href=./code/hasCycle.py>hasCycle.py </a> | Tue Jun 11 02:09:07 2019 |
+|  <a href=./code/hasGroupsSizeX.py>hasGroupsSizeX.py </a> | Fri Jun 12 01:06:20 2020 |
 |  <a href=./code/hasPathSum.py>hasPathSum.py </a> | Fri Aug 16 02:22:24 2019 |
 |  <a href=./code/he.py>he.py </a> | Sun May 3 23:47:12 2020 |
 |  <a href=./code/heighChecker.py>heighChecker.py </a> | Tue May 28 04:04:17 2019 |
@@ -267,6 +275,7 @@
 |  <a href=./code/isIPv4.py>isIPv4.py </a> | Tue Dec 4 04:06:19 2018 |
 |  <a href=./code/isIsomorphic.py>isIsomorphic.py </a> | Tue Aug 27 23:54:38 2019 |
 |  <a href=./code/isListPalindrome.py>isListPalindrome.py </a> | Sun Oct 7 05:24:10 2018 |
+|  <a href=./code/isLongPressedName.py>isLongPressedName.py </a> | Thu Jun 18 23:53:24 2020 |
 |  <a href=./code/isLucky.py>isLucky.py </a> | Tue Dec 4 01:56:36 2018 |
 |  <a href=./code/isMajorityElement.py>isMajorityElement.py </a> | Fri Oct 25 16:06:58 2019 |
 |  <a href=./code/isOneBitCharacter.py>isOneBitCharacter.py </a> | Sat Aug 10 02:18:51 2019 |
@@ -311,7 +320,7 @@
 |  <a href=./code/maxNumberOfApples.py>maxNumberOfApples.py </a> | Mon Oct 21 00:02:04 2019 |
 |  <a href=./code/maxNumberOfBalloons.py>maxNumberOfBalloons.py </a> | Fri Oct 25 16:06:58 2019 |
 |  <a href=./code/maxPower.py>maxPower.py </a> | Fri May 22 15:25:55 2020 |
-|  <a href=./code/maxProduct.py>maxProduct.py </a> | |
+|  <a href=./code/maxProduct.py>maxProduct.py </a> | Wed Jun 10 01:43:59 2020 |
 |  <a href=./code/maxScore.py>maxScore.py </a> | Mon Jun 8 18:02:15 2020 |
 |  <a href=./code/maximum69Number.py>maximum69Number.py </a> | Fri Feb 21 13:12:47 2020 |
 |  <a href=./code/mendianSortedArrays.py>mendianSortedArrays.py </a> | Sun Oct 21 02:48:53 2018 |
@@ -355,6 +364,7 @@
 |  <a href=./code/regexValidatePin.py>regexValidatePin.py </a> | Wed Jan 30 00:33:11 2019 |
 |  <a href=./code/relativeSortArray.py>relativeSortArray.py </a> | Sun Jul 28 03:54:17 2019 |
 |  <a href=./code/removeDuplicates.py>removeDuplicates.py </a> | Wed Jun 12 01:20:13 2019 |
+|  <a href=./code/removeElement.py>removeElement.py </a> | Thu Jun 18 23:53:24 2020 |
 |  <a href=./code/removeLeafNodes.py>removeLeafNodes.py </a> | Thu Apr 23 01:05:08 2020 |
 |  <a href=./code/removeVowels.py>removeVowels.py </a> | Wed Sep 18 00:29:41 2019 |
 |  <a href=./code/removeminimum.py>removeminimum.py </a> | Wed Jan 30 00:33:11 2019 |
@@ -377,6 +387,7 @@
 |  <a href=./code/rotateLeft.py>rotateLeft.py </a> | Tue Sep 25 02:29:04 2018 |
 |  <a href=./code/rotateString.py>rotateString.py </a> | Sun Aug 4 23:37:39 2019 |
 |  <a href=./code/rotateimage.py>rotateimage.py </a> | Sun Oct 7 05:24:10 2018 |
+|  <a href=./code/runningSum.py>runningSum.py </a> | Thu Jun 18 23:53:24 2020 |
 |  <a href=./code/searchInsert.py>searchInsert.py </a> | Sun Aug 18 23:43:20 2019 |
 |  <a href=./code/selfDividingNumbers.py>selfDividingNumbers.py </a> | Sun Feb 17 01:43:47 2019 |
 |  <a href=./code/sentenceIsPalindrome.py>sentenceIsPalindrome.py </a> | Sun Aug 25 22:37:03 2019 |
@@ -410,7 +421,7 @@
 |  <a href=./code/sumOfLeftLeaves.py>sumOfLeftLeaves.py </a> | Fri Jun 21 01:55:48 2019 |
 |  <a href=./code/sumZero.py>sumZero.py </a> | Fri Feb 21 01:15:01 2020 |
 |  <a href=./code/thirdMax.py>thirdMax.py </a> | Wed Sep 19 17:42:30 2018 |
-|  <a href=./code/tictactoe.py>tictactoe.py </a> | |
+|  <a href=./code/tictactoe.py>tictactoe.py </a> | Wed Jun 10 01:43:59 2020 |
 |  <a href=./code/toLoweCase.py>toLoweCase.py </a> | Fri Feb 15 23:54:32 2019 |
 |  <a href=./code/trailingZeroes.py>trailingZeroes.py </a> | Thu Apr 23 01:05:08 2020 |
 |  <a href=./code/transformArray.py>transformArray.py </a> | Sat Nov 9 00:36:15 2019 |
