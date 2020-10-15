@@ -93,6 +93,7 @@
 |  <a href=./code/NumberOfOneBits.py>NumberOfOneBits.py </a> | Fri Oct 19 02:06:17 2018 |
 |  <a href=./code/OddEvenLinkedList.py>OddEvenLinkedList.py </a> | Sun Oct 28 05:06:12 2018 |
 |  <a href=./code/PREORDER.py>PREORDER.py </a> | Wed Aug 7 03:33:40 2019 |
+|  <a href=./code/ParkingSystem.py>ParkingSystem.py </a> | |
 |  <a href=./code/ProductOfArrayExceptItself.py>ProductOfArrayExceptItself.py </a> | Sun Oct 14 00:14:31 2018 |
 |  <a href=./code/RANGESUMBST.py>RANGESUMBST.py </a> | Wed Jun 19 02:35:01 2019 |
 |  <a href=./code/REMOVELINKEDLISTELEMENTS.py>REMOVELINKEDLISTELEMENTS.py </a> | Tue Jun 11 03:18:43 2019 |
@@ -145,6 +146,7 @@
 |  <a href=./code/averageofLevels.py>averageofLevels.py </a> | Thu Aug 1 03:35:09 2019 |
 |  <a href=./code/avoidObstacles.py>avoidObstacles.py </a> | Tue Dec 4 04:06:19 2018 |
 |  <a href=./code/backspaceCompare.py>backspaceCompare.py </a> | Tue Sep 3 23:54:57 2019 |
+|  <a href=./code/balancedStringSplit.py>balancedStringSplit.py </a> | Thu Sep 24 02:49:39 2020 |
 |  <a href=./code/binTreeRecorridos.py>binTreeRecorridos.py </a> | Mon Oct 1 17:58:14 2018 |
 |  <a href=./code/binaryGap.py>binaryGap.py </a> | Sat Apr 11 01:11:03 2020 |
 |  <a href=./code/binarySearch.py>binarySearch.py </a> | Mon Aug 12 14:10:11 2019 |
@@ -177,6 +179,7 @@
 |  <a href=./code/containsDuplicated.py>containsDuplicated.py </a> | Thu Oct 25 04:58:26 2018 |
 |  <a href=./code/convertToBase7.py>convertToBase7.py </a> | Tue Oct 8 01:48:53 2019 |
 |  <a href=./code/convertToTitle.py>convertToTitle.py </a> | Mon Oct 7 01:13:35 2019 |
+|  <a href=./code/countBits.py>countBits.py </a> | Mon Oct 12 01:10:46 2020 |
 |  <a href=./code/countCharacters.py>countCharacters.py </a> | Mon Aug 26 23:54:37 2019 |
 |  <a href=./code/countLargestGroup.py>countLargestGroup.py </a> | Sat Apr 11 01:11:03 2020 |
 |  <a href=./code/countNegatives.py>countNegatives.py </a> | Thu Feb 20 01:48:39 2020 |
@@ -216,6 +219,7 @@
 |  <a href=./code/findAndreplacePattern.py>findAndreplacePattern.py </a> | Sat Feb 16 01:32:32 2019 |
 |  <a href=./code/findComplement.py>findComplement.py </a> | Fri Aug 9 03:18:07 2019 |
 |  <a href=./code/findDisappearedNumbers.py>findDisappearedNumbers.py </a> | Fri May 31 20:13:34 2019 |
+|  <a href=./code/findJudge.py>findJudge.py </a> | Mon Oct 12 01:10:46 2020 |
 |  <a href=./code/findKthPositive.py>findKthPositive.py </a> | Fri Sep 18 23:13:34 2020 |
 |  <a href=./code/findLucky.py>findLucky.py </a> | Wed Sep 19 17:42:30 2018 |
 |  <a href=./code/findMaxConsecutiveOnes.py>findMaxConsecutiveOnes.py </a> | Thu May 30 04:59:08 2019 |
@@ -263,6 +267,7 @@
 |  <a href=./code/graphExercise.py>graphExercise.py </a> | Fri Oct 5 15:05:50 2018 |
 |  <a href=./code/graphsSearches.py>graphsSearches.py </a> | Thu Oct 4 23:52:57 2018 |
 |  <a href=./code/groupAnagrams.py>groupAnagrams.py </a> | Wed Jul 31 03:59:34 2019 |
+|  <a href=./code/groupThePeople.py>groupThePeople.py </a> | Mon Oct 12 01:10:46 2020 |
 |  <a href=./code/guessNumber.py>guessNumber.py </a> | Fri Jun 12 01:06:20 2020 |
 |  <a href=./code/hammingWeight.py>hammingWeight.py </a> | Thu Apr 23 01:05:08 2020 |
 |  <a href=./code/hasAlternatingBits.py>hasAlternatingBits.py </a> | Fri Oct 19 02:06:17 2018 |
@@ -315,6 +320,7 @@
 |  <a href=./code/keepCitySkyline.py>keepCitySkyline.py </a> | Fri Feb 8 00:07:43 2019 |
 |  <a href=./code/kidsWithCandies.py>kidsWithCandies.py </a> | Sun May 3 23:47:12 2020 |
 |  <a href=./code/kthSmallest.py>kthSmallest.py </a> | Mon Nov 5 01:30:57 2018 |
+|  <a href=./code/largestSumAfterKNegations.py>largestSumAfterKNegations.py </a> | Mon Oct 12 01:10:46 2020 |
 |  <a href=./code/largestTimeFromDigits.py>largestTimeFromDigits.py </a> | Wed Mar 4 00:11:58 2020 |
 |  <a href=./code/largestUniqueNumber.py>largestUniqueNumber.py </a> | Thu Sep 19 01:03:55 2019 |
 |  <a href=./code/lengthOfLastWord.py>lengthOfLastWord.py </a> | Sat Aug 24 23:29:49 2019 |
@@ -326,6 +332,7 @@
 |  <a href=./code/longestPalindromic.py>longestPalindromic.py </a> | Sun Sep 29 15:31:21 2019 |
 |  <a href=./code/longestWord.py>longestWord.py </a> | Sat Jul 4 18:31:25 2020 |
 |  <a href=./code/luckyNumbers.py>luckyNumbers.py </a> | Sun Apr 12 01:04:00 2020 |
+|  <a href=./code/makeGood.py>makeGood.py </a> | Thu Sep 24 02:49:39 2020 |
 |  <a href=./code/mames.py>mames.py </a> | Sat Oct 19 21:11:15 2019 |
 |  <a href=./code/matrixElementSum.py>matrixElementSum.py </a> | Tue Dec 4 01:56:36 2018 |
 |  <a href=./code/maxDepth.py>maxDepth.py </a> | Thu Jul 4 00:50:54 2019 |
@@ -344,6 +351,7 @@
 |  <a href=./code/mergeTwoLists.py>mergeTwoLists.py </a> | Tue Jun 11 02:09:07 2019 |
 |  <a href=./code/middleNode.py>middleNode.py </a> | Tue Feb 19 00:58:35 2019 |
 |  <a href=./code/minAddToMakeValid.py>minAddToMakeValid.py </a> | Thu Aug 15 01:23:28 2019 |
+|  <a href=./code/minCostClimbingStairs.py>minCostClimbingStairs.py </a> | Mon Oct 12 01:10:46 2020 |
 |  <a href=./code/minDepth.py>minDepth.py </a> | Thu Sep 5 00:18:35 2019 |
 |  <a href=./code/minDiffInBST.py>minDiffInBST.py </a> | Fri Nov 8 00:28:34 2019 |
 |  <a href=./code/minOperations.py>minOperations.py </a> | Tue Sep 8 02:55:31 2020 |
@@ -355,6 +363,7 @@
 |  <a href=./code/minimumAbsDifference.py>minimumAbsDifference.py </a> | Sat Oct 5 15:22:51 2019 |
 |  <a href=./code/modifyString.py>modifyString.py </a> | Wed Sep 23 02:03:16 2020 |
 |  <a href=./code/mostCommonWord.py>mostCommonWord.py </a> | Thu Sep 5 00:46:21 2019 |
+|  <a href=./code/mostVisited.py>mostVisited.py </a> | |
 |  <a href=./code/moveZeroes.py>moveZeroes.py </a> | Fri Sep 13 16:25:59 2019 |
 |  <a href=./code/mySqrt.py>mySqrt.py </a> | Tue Mar 3 23:17:01 2020 |
 |  <a href=./code/nextGreatestLetter.py>nextGreatestLetter.py </a> | Sat Oct 5 15:22:51 2019 |
@@ -369,6 +378,7 @@
 |  <a href=./code/numWaterBottles.py>numWaterBottles.py </a> | Fri Sep 18 23:13:34 2020 |
 |  <a href=./code/numberIsPalindrome.py>numberIsPalindrome.py </a> | Wed Sep 19 17:42:30 2018 |
 |  <a href=./code/numberOfSteps.py>numberOfSteps.py </a> | Thu Feb 20 01:48:39 2020 |
+|  <a href=./code/oddCells.py>oddCells.py </a> | Thu Sep 24 02:49:39 2020 |
 |  <a href=./code/orangesRotting.py>orangesRotting.py </a> | Mon Sep 30 02:09:37 2019 |
 |  <a href=./code/palindromeRearranging.py>palindromeRearranging.py </a> | Tue Dec 4 04:06:19 2018 |
 |  <a href=./code/peakIndexInMountainArray.py>peakIndexInMountainArray.py </a> | Sat Feb 16 23:54:03 2019 |
@@ -377,6 +387,7 @@
 |  <a href=./code/plus1.py>plus1.py </a> | Fri Sep 13 16:25:59 2019 |
 |  <a href=./code/plusOne.py>plusOne.py </a> | Sat Aug 17 17:53:07 2019 |
 |  <a href=./code/postOrder.py>postOrder.py </a> | Wed Aug 7 03:33:40 2019 |
+|  <a href=./code/prefixesDivBy5.py>prefixesDivBy5.py </a> | Mon Oct 12 01:10:46 2020 |
 |  <a href=./code/productOfArray.py>productOfArray.py </a> | Sun Oct 28 05:06:12 2018 |
 |  <a href=./code/projectionArea.py>projectionArea.py </a> | Wed Jul 3 23:32:36 2019 |
 |  <a href=./code/queensAttacktheKing.py>queensAttacktheKing.py </a> | Mon Jun 8 18:02:15 2020 |
@@ -443,6 +454,7 @@
 |  <a href=./code/sudoku2.py>sudoku2.py </a> | Sun Oct 7 05:24:10 2018 |
 |  <a href=./code/sumEvenAfterQueries.py>sumEvenAfterQueries.py </a> | Sun Feb 17 01:43:47 2019 |
 |  <a href=./code/sumEvenGrandparent.py>sumEvenGrandparent.py </a> | Thu Feb 20 01:48:39 2020 |
+|  <a href=./code/sumOddLengthSubarrays.py>sumOddLengthSubarrays.py </a> | Mon Oct 12 01:10:46 2020 |
 |  <a href=./code/sumOfDigits.py>sumOfDigits.py </a> | Wed Sep 18 01:06:23 2019 |
 |  <a href=./code/sumOfLeftLeaves.py>sumOfLeftLeaves.py </a> | Fri Jun 21 01:55:48 2019 |
 |  <a href=./code/sumZero.py>sumZero.py </a> | Fri Feb 21 01:15:01 2020 |
