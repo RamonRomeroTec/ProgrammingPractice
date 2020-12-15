@@ -7,3 +7,9 @@ class Solution(object):
             else:
                 a[c]+=1   
         return "".join([ x[0]*x[1] for x in (sorted(a.items(), key=lambda x:-x[1]))])
+
+class Solution:
+    def frequencySort(self, nums: List[int]) -> List[int]:
+        c=collections.Counter(nums)
+        return sorted(nums, key=lambda x: (c[x], -x))
+        
